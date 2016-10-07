@@ -1,0 +1,23 @@
+/**
+ *  typography
+ */
+@font-face {
+
+  font-family: 'omnes';
+  src: url('../fonts/omnes-regular-webfont.eot');
+  src: local('☺'),
+  url('../fonts/omnes-regular-webfont.eot') format('embedded-opentype'),
+  url('../fonts/omnes-regular-webfont.woff') format('woff'),
+  url('../fonts/omnes-regular-webfont.ttf') format('truetype'),
+  url('../fonts/omnes-regular-webfont.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.txt-lower {
+  text-transform: lowercase;
+}
+
+.txt-upper {
+  text-transform: uppercase;
+}

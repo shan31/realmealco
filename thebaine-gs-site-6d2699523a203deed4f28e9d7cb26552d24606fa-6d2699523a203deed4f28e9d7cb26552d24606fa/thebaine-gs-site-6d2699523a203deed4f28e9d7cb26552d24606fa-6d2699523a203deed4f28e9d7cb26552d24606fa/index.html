@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<!--
+_|_|_  _ |_  _  o __  _  ¦  _   _
+ |_| |(/_|_)(_| | | |(/_ ¦ (_| _\   thebaine.opiate.nu
+                         ¦  _|
+-->
+<html class="no-js">
+<head lang="en">
+	<meta charset="UTF-8">
+	<title>thebaine¦gs - thebaine grid system.</title>
+	<link href="//www.google-analytics.com" rel="dns-prefetch">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/thebaine.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/highlighter.css">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- OG Triple OG -->
+	<meta property="og:url" content="http://thebaine.opiate.nu" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="thebaine¦gs - thebaine grid system." />
+	<meta property="og:description" content="Rapidly create responsive page layouts with thebaine¦gs, a customizable, mobile-first grid system powered by Sass." />
+	<meta property="og:image" content="http://thebaine.opiate.nu/facebook.png" />
+	<link type="text/plain" rel="author" href="http://thebaine.opiate.nu/humans.txt" />
+	<link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+<!-- header -->
+<section id="header">
+	<div class="inner head-inner">
+		<div class="tb-container">
+			<div class="tb-strut">
+				<div class="tb-c-sm-12-12 tb-c-md-9-12">
+					<h1 class="txt-lower">thebaine</h1>
+					<div class="head-description">
+						Rapidly create responsive page layouts with thebaine¦gs, a customizable, mobile-first grid system powered by Sass.
+					</div>
+					<div class="head-controls">
+						<a href="#download" class="button txt-lower material-response btn-scroll">Download</a>
+						<a href="#overview" class="button txt-lower material-response btn-scroll">Discover</a>
+					</div>
+					<!-- head window -->
+					<div class="head-window">
+						<img src="img/mock-browser-window.png">
+						<div class="head-window-body">
+							<div class="content">
+							<pre><code class="css">@charset "UTF-8";
+/*
+_|_|_  _ |_  _  o __  _  ¦  _   _   thebaine grid system. v0.1.0
+ |_| |(/_|_)(_| | | |(/_ ¦ (_| _\   build: 1027 [2015-08-10 @ 6:02:13 pm gmt-4]
+                         ¦  _|      copyright (c) 2015 matthew f. fox/opiate nu media ¦ http://opiate.nu
+*/
+.tb-container,.tb-container-fluid{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin:auto;padding:0 15px;width:100%}.tb-strut{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;clear:both;display:block;margin-left:-15px;margin-right:-15px}.tb-strut div[class*=tb-c-]{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;min-height:1px;overflow:hidden;padding:0 15px;position:relative}div[class*=tb-c-] .tb-strut{padding:0}.tb-strut:after{clear:both}@media screen and (min-width:568px){.tb-container{width:538px}.tb-strut div[class*=tb-c-]{float:left}.tb-c-sm-1-12{width:8.33333%}.tb-c-sm-2-12{width:16.66667%}.tb-c-sm-3-12{width:25%}.tb-c-sm-4-12{width:33.33333%}.tb-c-sm-5-12{width:41.66667%}.tb-c-sm-6-12{width:50%}.tb-c-sm-7-12{width:58.33333%}.tb-c-sm-8-12{width:66.66667%}.tb-c-sm-9-12{width:75%}.tb-c-sm-10-12{width:83.33333%}.tb-c-sm-11-12{width:91.66667%}.tb-c-sm-12-12{width:100%}.tb-c-sm-push-1-12{left:8.33333%}.tb-c-sm-pull-1-12{left:-8.33333%}.tb-c-sm-off-1-12{margin-right:8.33333%}.tb-c-sm-push-2-12{left:16.66667%}.tb-c-sm-pull-2-12{left:-16.66667%}.tb-c-sm-off-2-12{margin-right:16.66667%}.tb-c-sm-push-3-12{left:25%}.tb-c-sm-pull-3-12{left:-25%}.tb-c-sm-off-3-12{margin-right:25%}.tb-c-sm-push-4-12{left:33.33333%}.tb-c-sm-pull-4-12{left:-33.33333%}.tb-c-sm-off-4-12{margin-right:33.33333%}.tb-c-sm-push-5-12{left:41.66667%}.tb-c-sm-pull-5-12{left:-41.66667%}.tb-c-sm-off-5-12{margin-right:41.66667%}.tb-c-sm-push-6-12{left:50%}.tb-c-sm-pull-6-12{left:-50%}.tb-c-sm-off-6-12{margin-right:50%}.tb-c-sm-push-7-12{left:58.33333%}.tb-c-sm-pull-7-12{left:-58.33333%}.tb-c-sm-off-7-12{margin-right:58.33333%}.tb-c-sm-push-8-12{left:66.66667%}.tb-c-sm-pull-8-12{left:-66.66667%}.tb-c-sm-off-8-12{margin-right:66.66667%}.tb-c-sm-push-9-12{left:75%}.tb-c-sm-pull-9-12{left:-75%}.tb-c-sm-off-9-12{margin-right:75%}.tb-c-sm-push-10-12{left:83.33333%}.tb-c-sm-pull-10-12{left:-83.33333%}.tb-c-sm-off-10-12{margin-right:83.33333%}.tb-c-sm-push-11-12{left:91.66667%}.tb-c-sm-pull-11-12{left:-91.66667%}.tb-c-sm-off-11-12{margin-right:91.66667%}}@media screen and (min-width:768px){.tb-container{width:738px}.tb-strut div[class*=tb-c-]{float:left}.tb-c-md-1-12{width:8.33333%}.tb-c-md-2-12{width:16.66667%}.tb-c-md-3-12{width:25%}.tb-c-md-4-12{width:33.33333%}.tb-c-md-5-12{width:41.66667%}.tb-c-md-6-12{width:50%}.tb-c-md-7-12{width:58.33333%}.tb-c-md-8-12{width:66.66667%}.tb-c-md-9-12{width:75%}.tb-c-md-10-12{width:83.33333%}.tb-c-md-11-12{width:91.66667%}.tb-c-md-12-12{width:100%}.tb-c-md-push-1-12{left:8.33333%}.tb-c-md-pull-1-12{left:-8.33333%}.tb-c-md-off-1-12{margin-right:8.33333%}.tb-c-md-push-2-12{left:16.66667%}.tb-c-md-pull-2-12{left:-16.66667%}.tb-c-md-off-2-12{margin-right:16.66667%}.tb-c-md-push-3-12{left:25%}.tb-c-md-pull-3-12{left:-25%}.tb-c-md-off-3-12{margin-right:25%}.tb-c-md-push-4-12{left:33.33333%}.tb-c-md-pull-4-12{left:-33.33333%}.tb-c-md-off-4-12{margin-right:33.33333%}.tb-c-md-push-5-12{left:41.66667%}.tb-c-md-pull-5-12{left:-41.66667%}.tb-c-md-off-5-12{margin-right:41.66667%}.tb-c-md-push-6-12{left:50%}.tb-c-md-pull-6-12{left:-50%}.tb-c-md-off-6-12{margin-right:50%}.tb-c-md-push-7-12{left:58.33333%}.tb-c-md-pull-7-12{left:-58.33333%}.tb-c-md-off-7-12{margin-right:58.33333%}.tb-c-md-push-8-12{left:66.66667%}.tb-c-md-pull-8-12{left:-66.66667%}.tb-c-md-off-8-12{margin-right:66.66667%}.tb-c-md-push-9-12{left:75%}.tb-c-md-pull-9-12{left:-75%}.tb-c-md-off-9-12{margin-right:75%}.tb-c-md-push-10-12{left:83.33333%}.tb-c-md-pull-10-12{left:-83.33333%}.tb-c-md-off-10-12{margin-right:83.33333%}.tb-c-md-push-11-12{left:91.66667%}.tb-c-md-pull-11-12{left:-91.66667%}.tb-c-md-off-11-12{margin-right:91.66667%}}@media screen and (min-width:1024px){.tb-container{width:994px}.tb-strut div[class*=tb-c-]{float:left}.tb-c-lg-1-12{width:8.33333%}.tb-c-lg-2-12{width:16.66667%}.tb-c-lg-3-12{width:25%}.tb-c-lg-4-12{width:33.33333%}.tb-c-lg-5-12{width:41.66667%}.tb-c-lg-6-12{width:50%}.tb-c-lg-7-12{width:58.33333%}.tb-c-lg-8-12{width:66.66667%}.tb-c-lg-9-12{width:75%}.tb-c-lg-10-12{width:83.33333%}.tb-c-lg-11-12{width:91.66667%}.tb-c-lg-12-12{width:100%}.tb-c-lg-push-1-12{left:8.33333%}.tb-c-lg-pull-1-12{left:-8.33333%}.tb-c-lg-off-1-12{margin-right:8.33333%}.tb-c-lg-push-2-12{left:16.66667%}.tb-c-lg-pull-2-12{left:-16.66667%}.tb-c-lg-off-2-12{margin-right:16.66667%}.tb-c-lg-push-3-12{left:25%}.tb-c-lg-pull-3-12{left:-25%}.tb-c-lg-off-3-12{margin-right:25%}.tb-c-lg-push-4-12{left:33.33333%}.tb-c-lg-pull-4-12{left:-33.33333%}.tb-c-lg-off-4-12{margin-right:33.33333%}.tb-c-lg-push-5-12{left:41.66667%}.tb-c-lg-pull-5-12{left:-41.66667%}.tb-c-lg-off-5-12{margin-right:41.66667%}.tb-c-lg-push-6-12{left:50%}.tb-c-lg-pull-6-12{left:-50%}.tb-c-lg-off-6-12{margin-right:50%}.tb-c-lg-push-7-12{left:58.33333%}.tb-c-lg-pull-7-12{left:-58.33333%}.tb-c-lg-off-7-12{margin-right:58.33333%}.tb-c-lg-push-8-12{left:66.66667%}.tb-c-lg-pull-8-12{left:-66.66667%}.tb-c-lg-off-8-12{margin-right:66.66667%}.tb-c-lg-push-9-12{left:75%}.tb-c-lg-pull-9-12{left:-75%}.tb-c-lg-off-9-12{margin-right:75%}.tb-c-lg-push-10-12{left:83.33333%}.tb-c-lg-pull-10-12{left:-83.33333%}.tb-c-lg-off-10-12{margin-right:83.33333%}.tb-c-lg-push-11-12{left:91.66667%}.tb-c-lg-pull-11-12{left:-91.66667%}.tb-c-lg-off-11-12{margin-right:91.66667%}}@media screen and (min-width:1280px){.tb-container{width:1250px}.tb-strut div[class*=tb-c-]{float:left}.tb-c-xl-1-12{width:8.33333%}.tb-c-xl-2-12{width:16.66667%}.tb-c-xl-3-12{width:25%}.tb-c-xl-4-12{width:33.33333%}.tb-c-xl-5-12{width:41.66667%}.tb-c-xl-6-12{width:50%}.tb-c-xl-7-12{width:58.33333%}.tb-c-xl-8-12{width:66.66667%}.tb-c-xl-9-12{width:75%}.tb-c-xl-10-12{width:83.33333%}.tb-c-xl-11-12{width:91.66667%}.tb-c-xl-12-12{width:100%}.tb-c-xl-push-1-12{left:8.33333%}.tb-c-xl-pull-1-12{left:-8.33333%}.tb-c-xl-off-1-12{margin-right:8.33333%}.tb-c-xl-push-2-12{left:16.66667%}.tb-c-xl-pull-2-12{left:-16.66667%}.tb-c-xl-off-2-12{margin-right:16.66667%}.tb-c-xl-push-3-12{left:25%}.tb-c-xl-pull-3-12{left:-25%}.tb-c-xl-off-3-12{margin-right:25%}.tb-c-xl-push-4-12{left:33.33333%}.tb-c-xl-pull-4-12{left:-33.33333%}.tb-c-xl-off-4-12{margin-right:33.33333%}.tb-c-xl-push-5-12{left:41.66667%}.tb-c-xl-pull-5-12{left:-41.66667%}.tb-c-xl-off-5-12{margin-right:41.66667%}.tb-c-xl-push-6-12{left:50%}.tb-c-xl-pull-6-12{left:-50%}.tb-c-xl-off-6-12{margin-right:50%}.tb-c-xl-push-7-12{left:58.33333%}.tb-c-xl-pull-7-12{left:-58.33333%}.tb-c-xl-off-7-12{margin-right:58.33333%}.tb-c-xl-push-8-12{left:66.66667%}.tb-c-xl-pull-8-12{left:-66.66667%}.tb-c-xl-off-8-12{margin-right:66.66667%}.tb-c-xl-push-9-12{left:75%}.tb-c-xl-pull-9-12{left:-75%}.tb-c-xl-off-9-12{margin-right:75%}.tb-c-xl-push-10-12{left:83.33333%}.tb-c-xl-pull-10-12{left:-83.33333%}.tb-c-xl-off-10-12{margin-right:83.33333%}.tb-c-xl-push-11-12{left:91.66667%}.tb-c-xl-pull-11-12{left:-91.66667%}.tb-c-xl-off-11-12{margin-right:91.66667%}}.clear:after,.clear:before,.tb-strut:after,.tb-strut:before{display:table;content:" ";-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.clear:after{clear:both}.tb-v-lg-block,.tb-v-lg-inline,.tb-v-md-block,.tb-v-md-inline,.tb-v-sm-block,.tb-v-sm-inline,.tb-v-xl-block,.tb-v-xl-inline{display:none}.tb-iv-lg,.tb-iv-md,.tb-iv-sm,.tb-iv-xl{display:inherit}@media screen and (max-width:567px){.tb-v-sm-block{display:block}.tb-v-sm-inline{display:inline}.tb-iv-sm{display:none!important}}@media screen and (max-width:767px){.tb-v-md-block{display:block}.tb-v-md-inline{display:inline}.tb-iv-md{display:none!important}}@media screen and (max-width:1023px){.tb-v-lg-block{display:block}.tb-v-lg-inline{display:inline}.tb-iv-lg{display:none!important}}@media screen and (max-width:1279px){.tb-v-xl-block{display:block}.tb-v-xl-inline{display:inline}.tb-iv-xl{display:none!important}}img.tb-responsive{display:block;height:auto;margin:auto;max-width:100%}.tb-ratio-1-1{margin-top:100%}.tb-ratio-3-4{margin-top:75%}.tb-ratio-9-16{margin-top:65.25%}.tb-strut div[class*=tb-c-].tb-ratio{padding:0;position:relative}.tb-ratio-container{position:absolute;top:0;left:0}
+								</code>
+							</pre>
+							</div>
+						</div>
+					</div>
+					<!-- !head window -->
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- !header -->
+<!-- navigation -->
+<nav class="tb-nav">
+	<div class="tb-container">
+		<div class="tb-strut">
+			<div class="tb-nav-branding">
+				<a href="/" title = "thebaine¦gs">
+					<div class="inner">
+						<strong>Thebaine</strong> ¦ GS
+					</div>
+				</a>
+			</div>
+			<button class="tb-menu-toggle">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<ul class="tb-nav-menu">
+				<li><a href="#overview" title="Overview">Overview</a></li>
+				<li><a href="#download" title="Download">Download</a></li>
+				<li><a href="#getting-started" title="Getting Started">Getting Started</a></li>
+				<li><a href="#documentation" title="Documentation">Documentation</a></li>
+				<li><a href="#contact" title="Contact">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<!-- !navigation -->
+<!-- overview -->
+<section id="overview">
+	<div class="tb-container">
+		<div class="tb-strut">
+			<div class="tb-c-md-9-12">
+				<h2>thebaine</h2>
+				<div class="dek">Give your front-end development toolkit a bump with Thebaine.</div>
+				<p>
+					<blockquote>
+					Thebaine (paramorphine), also known as codeine methyl enol ether, is an opiate alkaloid, its name coming from the Greek Θῆβαι, Thēbai (Thebes), an ancient city in Upper Egypt. A minor constituent of opium, thebaine is chemically similar to both morphine and codeine, but has <span class="stress">stimulatory rather than depressant effects</span>.
+					</blockquote>
+				<p>
+				<p>
+					Thebaine, unlike its namesake, is a lightweight, mobile-first grid system written in Sass.
+				</p>
+				<p>
+					While ready to use out-of-the-box, Thebaine is fully customizable; define your own breakpoint sizes and column amounts with ease. Combine the flexibility of Thebaine with either Normalize.css or the YUI3 reset (both are optional and built-in) and build on top of a solid foundation without the bulk of fully-featured frameworks. We've even included a Gruntfile that takes care of building Thebaine once you've configured it to meet your needs.
+				</p>
+				<p>Thebaine is released under the MIT license.</p>
+				<p class="align-center">
+					<img src="img/logo-sass.png" class="logo-powered" alt="Written in Sass">
+					<img src="img/logo-thebaine.png" class="logo-powered" alt="Thebaine">
+					<img src="img/logo-grunt.png" class="logo-powered" alt="We heart Grunt">
+				</p>
+				<p>
+					Is Thebaine a good fit for your front-end development needs? We hope so. If not, <a href="#contact">drop us a line</a> and let us know what you think would make it better.
+				</p>
+			</div>
+			<div class="tb-c-md-3-12">
+				<img src="img/thebaine-molecule.png" class="slide-right tb-iv-md tb-responsive">
+			</div>
+		</div>
+	</div>
+</section>
+<!--!overview -->
+<!-- download -->
+<section id="download">
+	<div class="tb-container">
+		<div class="tb-strut">
+			<div class="tb-c-md-12-12">
+				<h2>Download</h2>
+				<p>
+					Thebaine is hosted in our Gitlab repository, so please feel free to either download the latest version as a zip file or clone the project locally using Git.
+				</p>
+				<div class="align-center">
+					<a id="btn-download" href="http://gitlab.opiatenumedia.net/thebaine/thebaine-gs/repository/archive.zip?ref=v1.1.0" class="button txt-lower material-response">Download Thebaine</a>
+					<div class="download-info">thebaine¦gs v1.1.0</div>
+				</div>
+				<div class="slide-bottom mock-window">
+					<div class="menu align-center">
+						<div class="menu-control"></div>
+						<div class="menu-control"></div>
+						<div class="menu-control"></div>
+						Clone thebaine locally with Git
+					</div>
+					<div class="content">
+						matt@op-mba ~🍔 git clone http://gitlab.opiatenumedia.net/thebaine/thebaine-gs.git<div class="cursor"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- !download -->
+<!-- getting started -->
+<section id="getting-started">
+	<div class="tb-container">
+		<div class="tb-strut">
+			<div class="tb-c-md-12-12">
+				<h2>Getting Started</h2>
+			</div>
+		</div>
+		<div class="tb-strut">
+			<div class="tb-c-sm-12-12 tb-c-md-4-12">
+				<img src="img/thebaine-files.png" class="slide-left tb-iv-md tb-responsive">
+			</div>
+			<div class="tb-c-sm-12-12 tb-c-md-8-12">
+				<p>
+					Once you've downloaded Thebaine, you'll find the compiled and compressed version, thebaine.min.css, in the <code>src</code> directory. There is also a compiled, uncompressed, version in the <code>css</code> subdirectory.
+				</p>
+				<p>
+					If Thebaine's default configuration meets your needs, simply copy either the compressed or uncompressed version in to your project, reference it via <code>LINK</code> tag or the <code>@import</code> CSS at-rule, and be sure to adhere to the following guidelines:
+				</p>
+				<h3>HTML5 Doctype</h3>
+				<p>
+					As with any other modern CSS grid system, Thebaine makes use of elements that require the HTML5 Doctype. Please ensure that it is at the top of all pages in your project.
+				</p>
+				<pre><code class="html">
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+...
+&lt;/html&gt;
+				</code></pre>
+				<h3>Viewport Meta Tag</h3>
+				<p>
+				Tp ensure proper rendering of your pages across devices of various viewport widths, please add the following meta tag to the <code>HEAD</code> of all pages in your project.
+				</p>
+				<pre><code class="html">
+&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+				</code></pre>
+				<p>
+					A basic page, demonstrating the above and a basic grid, is included with thebaine.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- !getting started -->
+<!-- documentation -->
+<section id="documentation">
+	<div class="tb-container">
+		<div class="tb-strut">
+			<div class="tb-c-sm-12-12">
+				<h2>Documentation</h2>
+			</div>
+		</div>
+		<div class="tb-strut">
+			<div class="tb-c-sm-12-12 tb-c-md-7-12">
+				<p>
+					By default, Thebaine is a 12 column grid with breakpoints at 568, 768, 1024 and 1280 pixels.
+				</p>
+				<p>
+					If you prefer to use a fluid grid, which remains at 100% page width at all times, use <code>.tb-container-fluid</code> class instead. A fluid container comes in particularly handy when used with Thebaine's cells with constrained aspect-ratios.
+				</p>
+				<p>
+					Are you looking to replace a larger, fully-featured, framework with Thebaine? Adjusting the available breakpoints, columns and other settings will allow you to emulate the behavior of grid systems found in existing frameworks. All adjustable settings are detailed in the <i>Sass & customizing Thebaine</i> section of the documentation.
+				</p>
+			</div>
+			<div class="tb-c-sm-12-12 tb-c-md-5-12">
+				<pre><code class="html">
+&lt;div class="tb-container"&gt;
+  &lt;div class="tb-strut"&gt;
+    &lt;div class="tb-c-md-8-12"&gt;
+      Left Column
+    &lt;/div&gt;
+    &lt;div class="tb-c-md-4-12"&gt;
+      Right Column
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+				</code><span class="codecomment">Basic Thebaine grid structure</span></pre>
+			</div>
+		</div>
+	</div>
+	<div class="tb-container show-grid">
+		<div class="tb-strut">
+			<div class="tb-c-sm-1-12">
+				.tb-c-sm-1-12
+			</div>
+			<div class="tb-c-sm-1-12">
+				.tb-c-sm-1-12
+			</div>
+			<div class="tb-c-sm-1-12">
+				.tb-c-sm-1-12
+			</div>
+			<div class="tb-c-sm-1-12">
+				.tb-c-sm-1-12
+			</div>
+			<div class="tb-c-sm-1-12">
+				.tb-c-sm-1-12
+			</div>
+			<div class="tb-c-sm-1-12">
+				.tb-c-sm-1-12
+			</div>
+			<div class="tb-c-sm-1-12">
+				.tb-c-sm-1-12
+			</div>
+			<div class="tb-c-sm-1-12">
+				.tb-c-sm-1-12
+			</div>
+			<div class="tb-c-sm-1-12">
+				.tb-c-sm-1-12
+			</div>
+			<div class="tb-c-sm-1-12">
+				.tb-c-sm-1-12
+			</div>
+			<div class="tb-c-sm-1-12">
+				.tb-c-sm-1-12
+			</div>
+			<div class="tb-c-sm-1-12">
+				.tb-c-sm-1-12
+			</div>
+		</div>
+	</div>
+	<!-- standard grid -->
+	<div class="tb-container show-grid">
+		<div class="tb-strut">
+			<div class="tb-c-sm-1-12">
+				.tb-c-sm-1-12
+			</div>
+			<div class="tb-c-sm-11-12">
+				.tb-c-sm-11-12
+			</div>
+		</div>
+		<div class="tb-strut">
+			<div class="tb-c-sm-2-12">
+				.tb-c-sm-2-12
+			</div>
+			<div class="tb-c-sm-10-12">
+				.tb-c-sm-10-12
+			</div>
+		</div>
+		<div class="tb-strut">
+			<div class="tb-c-sm-4-12">
+				.tb-c-sm-4-12
+			</div>
+			<div class="tb-c-sm-8-12">
+				.tb-c-sm-8-12
+			</div>
+		</div>
+		<div class="tb-strut">
+			<div class="tb-c-sm-6-12">
+				.tb-c-sm-6-12
+			</div>
+			<div class="tb-c-sm-6-12">
+				.tb-c-sm-6-12
+			</div>
+		</div>
+		</div>
+		<!-- !standard grid -->
+	<!-- nested grids -->
+	<div class="tb-container docs-divider">
+		<div class="tb-strut">
+			<div class="tb-c-sm-12-12 tb-c-md-7-12">
+				<h3>Nesting Grids</h3>
+				<p>
+					Grids may be nested by adding a new <code>.tb-strut</code> to an existing column. Like its parent grid, a nested grid should occupy no more than the maximum number of columns available, or wrapping will occur.
+				</p>
+			</div>
+			<div class="tb-c-sm-12-12 tb-c-md-5-12">
+				<pre><code class="html">
+&lt;div class="tb-strut"&gt;
+  &lt;div class="tb-c-sm-4-12"&gt;
+    Left, 4col
+  &lt;/div&gt;
+  &lt;div class="tb-c-sm-8-12"&gt;
+    Left, 8col
+    &lt;div class="tb-strut"&gt;
+      &lt;div class="tb-c-sm-6-12" style="min-height: 50px; background: #999999; border: 1px solid #c0c0c0;"&gt;
+        Nested grid, 6col
+      &lt;/div&gt;
+      &lt;div class="tb-c-sm-6-12" style="min-height: 50px; background: #999999; border: 1px solid #c0c0c0;"&gt;
+        Nested grid, 6col
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+				</code><span class="codecomment">Nested grid example.</span></pre>
+			</div>
+		</div>
+	</div>
+	<div class="tb-container show-grid">
+		<div class="tb-strut">
+			<div class="tb-c-sm-4-12">
+				Left, 4col
+			</div>
+			<div class="tb-c-sm-8-12">
+				Left, 8col
+				<div class="tb-strut">
+					<div class="tb-c-sm-6-12" style="min-height: 50px; background: #999999; border: 1px solid #c0c0c0;">
+						Nested grid, 6col
+					</div>
+					<div class="tb-c-sm-6-12" style="min-height: 50px; background: #999999; border: 1px solid #c0c0c0;">
+						Nested grid, 6col
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- !nested grids -->
+	<!-- column push/pull -->
+	<div class="tb-container docs-divider">
+		<div class="tb-strut">
+			<div class="tb-c-sm-12-12 tb-c-md-7-12">
+				<h3>Push/Pull Column Ordering</h3>
+				<p>
+					Push and pull classes are available for use, and allow you to reorder your cells, enabling you to ensure search engines spider site content, and not design elements first.
+				</p>
+				<p>
+					Syntax:<br>
+				</p>
+				<p>
+					<code>.tb-c-&lt;breakpoint&gt;-push-&ltcols&gt;-&lttotal_cols&gt;</code><br>
+					<code>.tb-c-&lt;breakpoint&gt;-pull-&ltcols&gt;-&lttotal_cols&gt;</code>
+				</p>
+			</div>
+			<div class="tb-c-sm-12-12 tb-c-md-5-12">
+				<pre><code class="html">
+&lt;div class="tb-strut"&gt;
+  &lt;div class="tb-c-sm-8-12 tb-c-sm-push-4-12"&gt;
+    Right, 8col Push-4&lt;br&gt;
+  &lt;/div&gt;
+  &lt;div class="tb-c-sm-4-12 tb-c-sm-pull-8-12"&gt;
+    Left, 4col Pull-8&lt;br&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+				</code><span class="codecomment">Basic push/pull example.</span></pre>
+			</div>
+		</div>
+	</div>
+	<div class="tb-container show-grid">
+			<div class="tb-strut">
+				<div class="tb-c-sm-8-12 tb-c-sm-push-4-12">
+					Right, 8col Push-4<br>
+				</div>
+				<div class="tb-c-sm-4-12 tb-c-sm-pull-8-12">
+					Left, 4col Pull-8<br>
+				</div>
+		</div>
+	</div>
+	<!-- !column push/pull -->
+	<!-- column offsets -->
+	<div class="tb-container docs-divider">
+		<div class="tb-strut">
+			<div class="tb-c-sm-12-12 tb-c-md-7-12">
+				<h3>Column Offsets</h3>
+				<p>
+					Adding offsets allows you to increase the gutter placed between columns in a strut. Each offset unit in equal to 1 column, so be sure that the number of columns and any offsets you use are equal or less than the total number of columns or wrapping will occur.
+				</p>
+				<p>
+					Syntax:<br>
+				</p>
+				<p>
+					<code>.tb-c-&lt;breakpoint&gt;-off-&ltcols&gt;-&lttotal_cols&gt;</code>
+				</p>
+			</div>
+			<div class="tb-c-sm-12-12 tb-c-md-5-12">
+				<pre><code class="html">
+&lt;div class="tb-strut"&gt;
+  &lt;div class="tb-c-sm-9-12 tb-c-sm-off-1-12"&gt;Left, 9col +1 offset&lt;/div&gt;
+  &lt;div class="tb-c-sm-2-12"&gt;Right, 2col&lt;/div&gt;
+&lt;/div&gt;
+				</code><span class="codecomment">Column offset example.</span></pre>
+			</div>
+		</div>
+	</div>
+	<div class="tb-container show-grid">
+		<div class="tb-strut">
+			<div class="tb-c-sm-9-12 tb-c-sm-off-1-12">Left, 9col +1 offset</div>
+			<div class="tb-c-sm-2-12">Right, 2col</div>
+		</div>
+	</div>
+	<!-- !column offsets -->
+	<!-- clearing w/ utility classes -->
+	<div class="tb-container docs-divider">
+		<div class="tb-strut">
+			<div class="tb-c-sm-12-12 tb-c-md-7-12">
+				<h3>Utility Classes &amp; Clearing</h3>
+				<p>
+					Thebaine includes utility classes that allow you to control the visibility of columns, or just about any anything else that will accept a class, based on breakpoints.
+				</p>
+				<p>
+					Syntax:<br>
+				</p>
+				<p>
+					<code>.tb-v-&lt;breakpoint&gt;-&lt;block|inline&gt;</code><br>
+					<code>.tb-iv-&lt;breakpoint&gt;</code>
+				</p>
+				<p>
+					There will be times when grids are unable to properly align due to the amount of content held within them. In a case like this, use the included responsive utility classes, in conjunction with the .clear class to maintain grid structure.
+				</p>
+			</div>
+			<div class="tb-c-sm-12-12 tb-c-md-5-12">
+				<pre><code class="html">
+&lt;div class="tb-strut"&gt;
+  &lt;div class="tb-c-sm-4-12"&gt;Left, 12col +1 offset&lt;/div&gt;
+  &lt;div class="tb-v-sm-block" style="padding: 0 15px; background: #ffff00;"&gt;add .clear class here and it only applies to the &quot;sm&quot; breakpoint.&lt;/div&gt;
+  &lt;div class="tb-c-sm-8-12"&gt;Right, 3col&lt;/div&gt;
+&lt;/div&gt;
+				</code><span class="codecomment">Show column only on mobile devices.</span></pre>
+			</div>
+		</div>
+	</div>
+	<div class="tb-container show-grid">
+		<div class="tb-strut">
+			<div class="tb-c-sm-4-12">Left, 4col</div>
+			<div class="tb-v-sm-block" style="padding: 0 15px; background: #ffff00;">Hello, I'm only visible on devices with a viewport of no more than 586px</div>
+			<div class="tb-c-sm-8-12">Right, 8col</div>
+		</div>
+	</div>
+	<!-- column push/pull -->
+	<div class="tb-container docs-divider">
+		<div class="tb-strut">
+			<div class="tb-c-sm-12-12 tb-c-md-7-12">
+				<h3>Constrained Aspect Ratio</h3>
+				<p>
+					Combining a fluid container with the included ratio classes allow you to build grids that take up 100% of the browser's viewport <em>and</em> maintain a specific aspect ratio among all of your columns.
+				</p>
+				<p>
+					Aspect ratios of 1:1, 4:3 and 16:9 are available for use out-of-the-box.
+				</p>
+				<p>
+					(resize your browser to watch the columns scale <em>and</em> maintain their aspect-ratio.)
+				</p>
+			</div>
+			<div class="tb-c-sm-12-12 tb-c-md-5-12">
+				<pre><code class="html">
+&lt;div class="tb-container-fluid"&gt;
+  &lt;div class="tb-strut"&gt;
+    &lt;div class="tb-c-sm-3-12 tb-ratio block-1"&gt;
+      &lt;div class="tb-ratio-container"&gt;&lt;/div&gt;
+      &lt;div class="tb-ratio-1-1"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="tb-c-sm-3-12 tb-ratio block-2"&gt;
+      &lt;div class="tb-ratio-container"&gt;&lt;/div&gt;
+      &lt;div class="tb-ratio-1-1"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="tb-c-sm-3-12 tb-ratio block-3"&gt;
+      &lt;div class="tb-ratio-container"&gt;&lt;/div&gt;
+      &lt;div class="tb-ratio-1-1"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="tb-c-sm-3-12 tb-ratio block-4"&gt;
+      &lt;div class="tb-ratio-container"&gt;&lt;/div&gt;
+      &lt;div class="tb-ratio-1-1"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code><span class="codecomment">Basic constrained aspect ratio example.</span></pre>
+			</div>
+		</div>
+	</div>
+	<div class="tb-container-fluid">
+		<div class="tb-strut">
+			<div class="tb-c-sm-3-12 tb-ratio block-1">
+				<div class="tb-ratio-container"></div>
+				<div class="tb-ratio-1-1"></div>
+			</div>
+			<div class="tb-c-sm-3-12 tb-ratio block-2">
+				<div class="tb-ratio-container"></div>
+				<div class="tb-ratio-1-1"></div>
+			</div>
+			<div class="tb-c-sm-3-12 tb-ratio block-3">
+				<div class="tb-ratio-container"></div>
+				<div class="tb-ratio-1-1"></div>
+			</div>
+			<div class="tb-c-sm-3-12 tb-ratio block-4">
+				<div class="tb-ratio-container"></div>
+				<div class="tb-ratio-1-1"></div>
+			</div>
+		</div>
+	</div>
+	<!-- !column push/pull -->
+		<div class="tb-container docs-divider">
+			<div class="tb-strut">
+				<div class="tb-c-sm-12-12">
+					<h3>Sass & Customizing Thebaine</h3>
+					<p>
+						All of Thebaine's customizable settings are located in <code>sass/thebaine/_vars.scss</code>:
+					</p>
+					<pre><code class="scss">
+// thebaine general settings
+$tb-vars: (
+   "namespace"  : "tb"            // (string)               prefix added to most class names
+  ,"foundation" : ""              // (normalize|yui|&lt;null&gt;) css reset to include with grid system
+) !default;
+
+// grid-specific settings
+$tb-grid: (
+   "grid-gutter"  : 15px          // (string)     left/right margin applied to grid cells
+  ,"grid-sizes"   : (12)          // (int)        number of grid cols, separate multiple grids with commas
+  ,"grid-extend"  : false         // (true|false) extend cell styling to mobile
+  ,"grid-pos"     : true          // (true|false) include grid positioning classes
+  ,"grid-off"     : true          // (true|false) include grid offsets
+) !default;
+
+// responsive breakpoints
+$tb-breakpoints: (
+   ""   : ""                      // default (mobile)
+  ,"sm" : 568px
+  ,"md" : 768px
+  ,"lg" : 1024px
+  ,"xl" : 1280px
+);
+					</code></pre>
+				</div>
+			</div>
+			<div class="tb-strut">
+				<div class="tb-c-sm-12-12 tb-c-md-4-12">
+					<h3>$tb-vars</h3>
+					<h4>namespace</h4>
+					Defines a prefix that is used with most class names to avoid conflicts with frameworks you may be already using in a project.
+					<h4>foundation</h4>
+					Include either Normalize.css or YUI3 Reset as a foundation. Thebaine does not include a foundation by default.
+				</div>
+				<div class="tb-c-sm-12-12 tb-c-md-4-12 middlecol">
+					<h3>$tb-grid</h3>
+					<h4>grid-gutter</h4>
+					Defines the right/left margin applied to columns
+					<h4>grid-sizes</h4>
+					Number of grid columns to use. You may define multiple grid sizes here, if desired.
+					<h4>grid-extend</h4>
+					Generates column widths for mobile devices. Use this option if you <strong>do not</strong> want columns to stack on mobile devices.
+					<h4>grid-pos</h4>
+					Generates column push/pull classes. Defaults to true.
+					<h4>grid-off</h4>
+					Generates column offsets. Defaults to true.
+				</div>
+				<div class="tb-c-sm-12-12 tb-c-md-4-12">
+					<h3>$tb-breakpoints</h3>
+					<p>
+						This Sass map is used to define the name and width of each breakpoint used by thebaine.
+					</p>
+					<p>
+						While you have the ability to create an unlimited number of breakpoints, we suggest using 3-4. Keep in mind that quite a bit of CSS in generated for each breakpoint, so you are increasing the size of Thebaine with each one defined.
+					</p>
+				</div>
+			</div>
+			<div class="tb-strut">
+				<div class="tb-c-sm-12-12">
+					<h3>Compiling Thebaine with Grunt</h3>
+					<p>
+						Thanks to <a href="http://gruntjs.com/" target="_blank" title="Grunt">Grunt, The Javascript Task Runner</a>, compiling a custom version of Thebaine is simple. If you haven't used Grunt before, take a look at the <a href="http://gruntjs.com/getting-started" target="_blank" title="Grunt - Getting Started">getting started</a> guide.
+					</p>
+					<p>
+						Once Grunt is installed on your system, make any necessary modifications to Thebaine's source files, navigate to the directory containing thebaine and run the default task in the included Gruntfile:
+					</p>
+					<div class="slide-bottom mock-window align-center">
+						<div class="menu">
+							<div class="menu-control"></div>
+							<div class="menu-control"></div>
+							<div class="menu-control"></div>
+							1.&nbsp;bash
+						</div>
+						<div class="content align-left">
+matt@op-mba ~🍔 cd ~/projects/www/thebaine-gs<br>
+matt@op-mba ~🍔 grunt<div class="cursor"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+</div>
+	<!-- !clearing w/ utility classes -->
+</section>
+<!-- !documentation -->
+
+<!-- contact -->
+<section id="contact">
+	<div class="tb-container">
+		<div class="tb-strut">
+			<div class="tb-c-sm-5-12 tb-c-md-4-12">
+				<h2>Get in touch</h2>
+				<p>
+					We appreciate all feedback! If you have a question, comment, bug report, or just want to say hello; please feel free to drop us a line.
+				</p>
+				<p>
+					Please use the contact form to reach us. Every message received is read, and we try to respond to each as soon as possible.
+				</p>
+				<p>
+					*All fields are required.
+				</p>
+			</div>
+			<div class="tb-c-sm-7-12 tb-c-md-8-12">
+				<form id="contactform">
+					<div class="tb-strut" style="padding-top: 10px;">
+						<div class="tb-c-sm-12-12 tb-c-md-5-12" style="margin-bottom: 20px;">
+							<input id="contactName" class="material-label" type="text" name="name">
+							<label for="contactName">Name*</label>
+						</div>
+						<div class="tb-c-sm-12-12 tb-c-md-7-12" style="margin-bottom: 20px;">
+							<input id="contactEmail" class="material-label" type="text" name="email">
+							<label for = "contactEmail">Email*</label>
+						</div>
+					</div>
+					<div class="tb-strut">
+						<div class="tb-c-sm-12-12">
+							<textarea name="message" class="contact-message" required>Message*</textarea>
+							<input type="hidden" name="source" value="thebaine.opiate.nu">
+							<button type="submit" id="contactSubmit" class="button big material-response">Send</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- !contact -->
+<!-- footer -->
+<footer>
+    <div class="tb-container">
+        <div class="tb-strut">
+            <div class="tb-c-sm-3-12">
+                <h2>&copy;2015 Opiate Nu Media</h2>
+							<a class="digitalocean" href="https://www.digitalocean.com/?refcode=9f56175aee1b" target="_blank">Fast SSD VM Hosting</a>
+            </div>
+            <div class="tb-c-sm-3-12">
+                <h2>Connect</h2>
+							<ul>
+								<li>
+								<a href="http://facebook.com/opiatenumedia" class="social-facebook"></a>
+								</li>
+								<li>
+								<a href="mailto:hello@opiate.nu">hello@opiate.nu</a>
+								</li>
+							</ul>
+            </div>
+						<div class="tb-c-sm-6-12">
+							<h2>About Opiate Nu Media</h2>
+							<p>
+								<a href="http://opiate.nu" target="_blank" class="opiatelogo"></a>
+								Established in 2001, Opiate Nu Media is a digital media studio/collective specializing in web and mobile application development, print/clothing design and making science. We took a hiatus of a decade or so, but are back in action. Stay tuned!
+							</p>
+						</div>
+        </div>
+    </div>
+</footer>
+<div id="modal">
+	<div class="modal-window">
+		<div class="modal-message">Message here.</div>
+		<div class="modal-controls">
+		<button id="modalOK" class="button big" style="margin: auto;">ok</button>
+		</div>
+	</div>
+</div>
+<!-- !footer -->
+<script src="js/modernizr-2.7.1.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery-1.11.3.min.js">\x3C/script>')</script>
+<script src="js/jquery.fadethis.min.js" type="text/javascript"></script>
+<script src="js/jquery.scrollTo.min.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/highlight.pack.js" type="text/javascript"></script>
+<script src="js/thebaine-site.js" type="text/javascript"></script>
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-56321371-7', 'auto');
+	ga('send', 'pageview');
+</script>
+</body>
+</html>

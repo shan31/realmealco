@@ -1,22 +1,90 @@
-
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   
+@font-face {
+    font-family: 'omnesregular';
+    src: url('../fonts/omnes-webfont.eot');
+    src: url('../fonts/omnes-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/omnes-webfont.woff2') format('woff2'),
+         url('../fonts/omnes-webfont.woff') format('woff'),
+         url('../fonts/omnes-webfont.ttf') format('truetype'),
+         url('../fonts/omnes-webfont.svg#omnesregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+@font-face {
+	font-family: 'omnes-regular';
+	src: url('../fonts/omnes-regular-webfont.eot');
+	src: url('../fonts/omnes-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/omnes-regular-webfont.woff') format('woff'), url('../fonts/omnes-regular-webfont.ttf') format('truetype'), url('../fonts/omnes-regular-webfont.svg#robotobold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'omnes-light';
+	src: url('../fonts/omnes-light-webfont.eot');
+	src: url('../fonts/omnes-light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/omnes-light-webfont.woff') format('woff'), url('../fonts/omnes-light-webfont.ttf') format('truetype'), url('../fonts/omnes-light-webfont.svg#robotobold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'omnes-medium';
+	src: url('../fonts/omnes-medium-webfont.eot');
+	src: url('../fonts/omnes-medium-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/omnes-medium-webfont.woff') format('woff'), url('../fonts/omnes-medium-webfont.ttf') format('truetype'), url('../fonts/omnes-medium-webfont.svg#robotobold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'omnes-bold';
+	src: url('../fonts/omnes-bold-webfont.eot');
+	src: url('../fonts/omnes-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/omnes-bold-webfont.woff') format('woff'), url('../fonts/omnes-bold-webfont.ttf') format('truetype'), url('../fonts/omnes-bold-webfont.svg#robotobold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+body {
+	font-family: 'omnes-regular';
+	color: #ffff;
+}
+.col-condensed {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+a:hover, a:focus {
+	text-decoration: none;
+}
+.btn-link:hover, .btn-link:focus{
+	text-decoration: none;
+	
+	background-color: transparent;
+}
+.sticky_header{
+	background-color: #E9E9E9;
+	height: 60px;
+}
+.sticky_header .sticky_header_inner{
+	display: table;
+	padding: 13px;
+}
+.sticky_header .sticky_header_inner p,.sticky_header .sticky_header_inner ul{
+	display: table-cell;
+	vertical-align: middle;
+	margin: 0px;
+}
+.sticky_header .sticky_header_inner p{
+	font-size: 24px;
+	color: #51384A;
+	font-family: 'omnesregular';
+}
+.sticky_header .sticky_header_inner p small{
+	font-size: 16px;
+}
+.sticky_header .sticky_header_inner ul{
+	    width: 35%;
+}
+.sticky_header .sticky_header_inner ul li a{
+	font-family: 'omnesregular';
+	color: #AEA79F;
+	word-spacing: 5px;
+	font-size: 15px;
+}
