@@ -1,90 +1,167 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-   
 @font-face {
-    font-family: 'omnesregular';
-    src: url('../fonts/omnes-webfont.eot');
-    src: url('../fonts/omnes-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/omnes-webfont.woff2') format('woff2'),
-         url('../fonts/omnes-webfont.woff') format('woff'),
-         url('../fonts/omnes-webfont.ttf') format('truetype'),
-         url('../fonts/omnes-webfont.svg#omnesregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+  font-family: '../fonts/omnes_regularregular';
+  src: url('../fonts/omnesregular-italic-webfont.eot');
+  src: url('../fonts/omnesregular-italic-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/omnesregular-italic-webfont.woff2') format('woff2'), url('../fonts/omnesregular-italic-webfont.woff') format('woff'), url('../fonts/omnesregular-italic-webfont.ttf') format('truetype'), url('../fonts/omnesregular-italic-webfont.svg#omnes_regularregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-	font-family: 'omnes-regular';
-	src: url('../fonts/omnes-regular-webfont.eot');
-	src: url('../fonts/omnes-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/omnes-regular-webfont.woff') format('woff'), url('../fonts/omnes-regular-webfont.ttf') format('truetype'), url('../fonts/omnes-regular-webfont.svg#robotobold') format('svg');
-	font-weight: normal;
-	font-style: normal;
+  font-family: 'omnesregular';
+  src: url('../fonts/omnes-webfont.eot');
+  src: url('../fonts/omnes-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/omnes-webfont.woff2') format('woff2'), url('../fonts/omnes-webfont.woff') format('woff'), url('../fonts/omnes-webfont.ttf') format('truetype'), url('../fonts/omnes-webfont.svg#omnesregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-	font-family: 'omnes-light';
-	src: url('../fonts/omnes-light-webfont.eot');
-	src: url('../fonts/omnes-light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/omnes-light-webfont.woff') format('woff'), url('../fonts/omnes-light-webfont.ttf') format('truetype'), url('../fonts/omnes-light-webfont.svg#robotobold') format('svg');
-	font-weight: normal;
-	font-style: normal;
+  font-family: 'omnes-regular';
+  src: url('../fonts/omnes-regular-webfont.eot');
+  src: url('../fonts/omnes-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/omnes-regular-webfont.woff') format('woff'), url('../fonts/omnes-regular-webfont.ttf') format('truetype'), url('../fonts/omnes-regular-webfont.svg#robotobold') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-	font-family: 'omnes-medium';
-	src: url('../fonts/omnes-medium-webfont.eot');
-	src: url('../fonts/omnes-medium-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/omnes-medium-webfont.woff') format('woff'), url('../fonts/omnes-medium-webfont.ttf') format('truetype'), url('../fonts/omnes-medium-webfont.svg#robotobold') format('svg');
-	font-weight: normal;
-	font-style: normal;
+  font-family: 'omnes-light';
+  src: url('../fonts/omnes-light-webfont.eot');
+  src: url('../fonts/omnes-light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/omnes-light-webfont.woff') format('woff'), url('../fonts/omnes-light-webfont.ttf') format('truetype'), url('../fonts/omnes-light-webfont.svg#robotobold') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-	font-family: 'omnes-bold';
-	src: url('../fonts/omnes-bold-webfont.eot');
-	src: url('../fonts/omnes-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/omnes-bold-webfont.woff') format('woff'), url('../fonts/omnes-bold-webfont.ttf') format('truetype'), url('../fonts/omnes-bold-webfont.svg#robotobold') format('svg');
-	font-weight: normal;
-	font-style: normal;
+  font-family: 'omnes-medium';
+  src: url('../fonts/omnes-medium-webfont.eot');
+  src: url('../fonts/omnes-medium-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/omnes-medium-webfont.woff') format('woff'), url('../fonts/omnes-medium-webfont.ttf') format('truetype'), url('../fonts/omnes-medium-webfont.svg#robotobold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'omnes-bold';
+  src: url('../fonts/omnes-bold-webfont.eot');
+  src: url('../fonts/omnes-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/omnes-bold-webfont.woff') format('woff'), url('../fonts/omnes-bold-webfont.ttf') format('truetype'), url('../fonts/omnes-bold-webfont.svg#robotobold') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 body {
-	font-family: 'omnes-regular';
-	color: #ffff;
+  font-family: 'omnes-regular';
+  color: #ffff;
 }
 .col-condensed {
-	padding-left: 0px;
-	padding-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
-a:hover, a:focus {
-	text-decoration: none;
+a:hover,
+a:focus {
+  text-decoration: none;
 }
-.btn-link:hover, .btn-link:focus{
-	text-decoration: none;
-	
-	background-color: transparent;
+.btn-link:hover,
+.btn-link:focus {
+  text-decoration: none;
+  background-color: transparent;
 }
-.sticky_header{
-	background-color: #E9E9E9;
-	height: 60px;
+.sticky_header {
+  background-color: #E9E9E9;
+  height: 60px;
 }
-.sticky_header .sticky_header_inner{
-	display: table;
-	padding: 13px;
+.sticky_header .sticky_header_inner {
+  display: table;
+  padding: 13px;
 }
-.sticky_header .sticky_header_inner p,.sticky_header .sticky_header_inner ul{
-	display: table-cell;
-	vertical-align: middle;
-	margin: 0px;
+.sticky_header .sticky_header_inner p,
+.sticky_header .sticky_header_inner ul {
+  display: table-cell;
+  vertical-align: middle;
+  margin: 0px;
 }
-.sticky_header .sticky_header_inner p{
-	font-size: 24px;
-	color: #51384A;
-	font-family: 'omnesregular';
+.sticky_header .sticky_header_inner p {
+  font-size: 24px;
+  color: #51384A;
+  font-family: 'omnes-regular';
+  font-weight: 700;
 }
-.sticky_header .sticky_header_inner p small{
-	font-size: 16px;
+.sticky_header .sticky_header_inner p small {
+  font-size: 16px;
+  font-weight: 300;
 }
-.sticky_header .sticky_header_inner ul{
-	    width: 35%;
+.sticky_header .sticky_header_inner ul li a {
+  font-family: 'omnes-medium';
+  color: #AEA79F;
+  word-spacing: 5px;
+  font-size: 15px;
+  letter-spacing: 1px;
 }
-.sticky_header .sticky_header_inner ul li a{
-	font-family: 'omnesregular';
-	color: #AEA79F;
-	word-spacing: 5px;
-	font-size: 15px;
+.menu {
+  top: -50px;
 }
+.menu ul {
+  display: table;
+  margin: 0 auto;
+}
+.menu ul li a {
+  padding: 0px;
+}
+#navbar-primary .navbar-nav {
+  width: 100%;
+  text-align: center;
+}
+#navbar-primary .navbar-nav li {
+  display: inline-block;
+  float: none;
+}
+#navbar-primary .navbar-nav li a {
+  padding-left: 75px;
+  padding-right: 50px;
+  font-size: 16px;
+  color: #51384A;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-shadow: none;
+  font-family: 'omnes-regular';
+}
+#navbar-primary .navbar-nav li a:hover,
+#navbar-primary .navbar-nav li a:focus {
+  background: none;
+}
+.navbar {
+  background-color: #fff;
+}
+#navbar-primary .navbar-nav li a img {
+  position: absolute;
+  top: -132%;
+  z-index: 9;
+  left: -20px;
+}
+/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map */
