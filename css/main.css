@@ -1,5 +1,5 @@
-==========================================================================Author's custom styles
-==========================================================================*/ @font-face { font-family: 'rufinabold'; src: url('../fonts/rufina-bold-webfont.eot'); src: url('../fonts/rufina-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/rufina-bold-webfont.woff2') format('woff2'), url('../fonts/rufina-bold-webfont.woff') format('woff'), url('../fonts/rufina-bold-webfont.ttf') format('truetype'), url('../fonts/rufina-bold-webfont.svg#rufinabold') format('svg'); font-weight: normal; font-style: normal; }
+/*==========================================================================Author's custom styles==========================================================================*/ 
+@font-face { font-family: 'rufinabold'; src: url('../fonts/rufina-bold-webfont.eot'); src: url('../fonts/rufina-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/rufina-bold-webfont.woff2') format('woff2'), url('../fonts/rufina-bold-webfont.woff') format('woff'), url('../fonts/rufina-bold-webfont.ttf') format('truetype'), url('../fonts/rufina-bold-webfont.svg#rufinabold') format('svg'); font-weight: normal; font-style: normal; }
 @font-face { font-family: 'rufinaregular'; src: url('../fonts/rufina-regular-webfont.eot'); src: url('../fonts/rufina-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/rufina-regular-webfont.woff2') format('woff2'), url('../fonts/rufina-regular-webfont.woff') format('woff'), url('../fonts/rufina-regular-webfont.ttf') format('truetype'), url('../fonts/rufina-regular-webfont.svg#rufinaregular') format('svg'); font-weight: normal; font-style: normal; }
 @font-face { font-family: 'omnes-regular'; src: url('../fonts/omnes-regular-webfont.eot'); src: url('../fonts/omnes-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/omnes-regular-webfont.woff') format('woff'), url('../fonts/omnes-regular-webfont.ttf') format('truetype'), url('../fonts/omnes-regular-webfont.svg#robotobold') format('svg'); font-weight: normal; font-style: normal; }
 @font-face { font-family: 'omnes-light'; src: url('../fonts/omnes-light-webfont.eot'); src: url('../fonts/omnes-light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/omnes-light-webfont.woff') format('woff'), url('../fonts/omnes-light-webfont.ttf') format('truetype'), url('../fonts/omnes-light-webfont.svg#robotobold') format('svg'); font-weight: normal; font-style: normal; }
@@ -26,7 +26,7 @@ a:hover, a:focus { text-decoration: none; }
 .navbar { background-color: #fff; margin: 0px; }
 #navbar-primary .navbar-nav li a img { position: absolute; top: -132%; z-index: 9; left: -20px; transition: all 0.4s ease; }
 #navbar-primary .navbar-nav li a img.shrink { width: 100px; left: 25%; }
-
+.mobile_social li { width: 40px; height: 40px; line-height: 40px; background: #6AA744; border-radius: 50%; text-align: center; }
 /*BANNER CAROUSEL*/
 .carousel, .item, .active { height: 100%; }
 .carousel-inner { height: 100%; }
@@ -48,11 +48,9 @@ a:hover, a:focus { text-decoration: none; }
 .carousel-fade .carousel-inner .active.left, .carousel-fade .carousel-inner .active.right { left: 0; opacity: 0; z-index: 1; }
 .carousel-fade .carousel-inner .next.left, .carousel-fade .carousel-inner .prev.right { opacity: 1; }
 .carousel-fade .carousel-control { z-index: 2; }
-
 /*END BANNER CAROUSEL*/
 
 /*BEGIN SECTION BLOCK */
-
 .section_block { position: relative; bottom: 60px; text-align: center; background-color: #fff;    /* border: 1px solid #ccc; */ padding-bottom: 25px; }
 .section_block h1 { font-size: 44px; color: #51384A; position: relative; padding-bottom: 25px; margin-bottom: 0px; }
 .section_block h1:after, .section_block h1:before { position: absolute; content: ''; width: 49%; height: 3px; background-color: #51384A; bottom: 0px; }
@@ -67,11 +65,9 @@ a:hover, a:focus { text-decoration: none; }
 .sub_block_1 { padding: 15px 10px; }
 .sub_block_1 img { margin: 0 auto; }
 .sub_block_1 h2 { color: #51384A; font-size: 24pt; word-break: break-word; line-height: 40px; font-weight: normal; font-family: 'omnes-regular'; }
-
 /*END-SUB-BLOCK-1*/
 
 /*BEGIN SUB-BLOCK-2*/
-
 .section_block .sub_block_2 h1 { text-align: left; padding-left: 20px; }
 
 /*BEGIN SUB-BLOCK-3*/
@@ -96,11 +92,9 @@ a:hover, a:focus { text-decoration: none; }
 .section_block .sub_block_4 ul li:after { left: 0px; }
 .section_block .sub_block_4 ul li:before { right: 0px; }
 .section_block .sub_block_4 ul li .more_btn { position: absolute; right: -8px; bottom: -100px; background: #fff; }
-
 /*END SUB-BLOCK-4*/
 
 /*ORDER BLOCK-5*/
-
 .order_block_5 ul { margin: 0px; display: table; width: 100%; text-align: left; }
 .order_block_5 .well ul li { width: 49.5%; margin: 0px 0px 5px; padding: 0px 0px 0px 10px; }
 .order_block_5 a { text-align: left; width: 100%; font-size: 26px; font-family: 'omnes-medium'; color: #6AA744; border-bottom: 3px solid #6AA744; }
@@ -133,11 +127,9 @@ a:hover, a:focus { text-decoration: none; }
 .order_block_5 .well ul li .form-control:focus { outline: none; box-shadow: none; border-color: #ccc; }
 .order_block_5 .well ul li .form-control { border-left: none; font-family: 'omnes-medium'; color: #6AA744; font-size: 18px; padding-left: 0px; border: none; letter-spacing: 1px; }
 .order_block_5 .well .sign_in input.big:hover { background-position: 97%; }
-
 /* END LOGIN OR CREATE ACCOUNT */
 
 /*BEGIN SELECT MEALS COMBINATION*/
-
 .order_block_5 .well .meals_selection { border-bottom: 5px solid #fff; }
 .order_block_5 .well .meals_selection ul { width: 100%; }
 .order_block_5 .well .meals_selection ul li { width: auto; float: left; padding: 0px 15px; }
@@ -147,21 +139,17 @@ a:hover, a:focus { text-decoration: none; }
 .order_block_5 .well .meals_plan ul li { width: 100%; }
 .order_block_5 .well .meals_plan input[type="radio"] + label { color: #000; font-weight: 200; text-indent: 0px; margin: 8px 0px; }
 .order_block_5 .well .meals_plan input[type="radio"] + label span { margin-right: 10px; }
-
 /*END BEGIN SELECT MEALS COMBINATION*/
 
 /*deitary*/
-
 .order_block_5 .well .dietary ul li { width: auto; }
 .order_block_5 .well .dietary input[type="radio"] + label { color: #000; font-weight: 200; text-indent: 0px; margin: 8px 0px; padding: 0px 10px; }
 .order_block_5 .well .dietary input[type="radio"] + label span { margin-right: 10px; }
 .order_block_5 #collapseExample2 .well .sign_in { padding: 0px 15px; float: left; }
 .order_block_5 #collapseExample2 .well .sign_in h3 { width: auto; color: #6AA744; }
-
 /*end deitary*/
 
 /*DATE PICKER*/
-
 .ui-widget.ui-widget-content { margin: 0 auto; display: table !important; width: 50em !important; border: none; }
 .ui-widget-header { border: 1px solid #fff; background: #fff; color: #000; font-weight: bold; text-align: left; }
 .ui-datepicker .ui-datepicker-prev span { background-image: url(../img/left_arrow.png); background-size: 50px; width: 60px; line-height: 26px; top: 10px; height: 50px; left: -55px; border: none; background-position: 0px; }
@@ -176,11 +164,9 @@ a:hover, a:focus { text-decoration: none; }
 .Highlighted a { background-color: #fff !important; background-image: none !important; color: #6AA744 !important; font-weight: bold !important; text-align: center !important; font-size: 12pt; padding: 5px 5px !important; border-radius: 50%; border: 1px solid #6AA744 !important; }
 .Highlighted .ui-state-active, .ui-widget-content .ui-state-active { background-color: #6AA744 !important; color: #fff !important; }
 .ui-state-default, .ui-widget-content .ui-state-default { color: #000; }
-
 /*END DATE PICKER*/
 
 /*PAYMENT DETAILS*/
-
 .order_block_5 .card_details ul { margin: 0px 0px 10px; }
 .order_block_5 .order_summary { background-color: #c1bdb7; padding: 10px; width: 49%; }
 .order_block_5 .order_summary h2 { font-size: 32px; font-family: 'omnes-regular'; color: #291B12; text-align: left; font-weight: 100; }
@@ -197,13 +183,26 @@ a:hover, a:focus { text-decoration: none; }
 .order_block_5 .order_summary .order_cost { border-top: none; }
 .order_block_5 #collapseExample4 .well { padding: 10px 0px 0px; }
 .order_block_5 .order_summary .delivery_msg { font-size: 16px; font-family: 'omnes-regular'; font-size: 16px; font-family: 'omnes-regular'; }
-
 /*END PAYMENT DETAILS*/
 
 /*END ORDER BLOCK-5*/
 
-/*BREAK-POINTS*/
+/*BEGIN FOOTER*/
+.footer { background: #51384A; display: table; width: 100%; padding: 30px; }
+.footer .footer_content .footer_four { border-bottom: 1px solid #fff; padding: 15px 0px 0px; }
+.footer .footer_content .footer_four ul { margin-left: 0px; margin: 0px; }
+.footer .footer_content .footer_four ul li { padding: 0px 15% 0px 0px; }
+.footer .footer_content img { position: absolute; }
+.footer .footer_content  ul li p { font-family: 'omnes-medium'; color: #fff; font-size: 16px; }
+.footer .footer_content .footer_phone { border-bottom: 2px solid #fff; padding: 10px 0px 10px; }
+.footer .footer_content .footer_phone ul { width: 68%; margin: 0px; }
+.footer .footer_content .footer_phone .mobile_social li { margin: 5px 15px; background-color: #FFFFFF; color: #51384A; font-size: 20px; }
+.footer .footer_content .footer_bottom { margin: 10px 0px; }
+.footer .footer_content .footer_bottom .crafted_text { padding-right: 10%; line-height: 45px; }
+.footer .footer_content .footer_bottom .diamond { right: 0px; }
+/*END FOOTER*/
 
+/*BREAK-POINTS*/
 /* Portrait */
 @media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio:1) {
   #navbar-primary .navbar-nav li a { padding-left: 80px; padding-right: 25px; }
@@ -234,7 +233,7 @@ a:hover, a:focus { text-decoration: none; }
   #navbar-primary .navbar-nav li { float: left; width: 100%; text-align: left; }
   .navbar-header { padding: 10px; }
   .navbar-header ul { margin: 0px; }
-  .mobile_social li { width: 40px; height: 40px; line-height: 40px; background: #6AA744; border-radius: 50%; text-align: center; }
+ 
   .sticky_header .sticky_header_inner ul.mob_sign a { font-size: 16px; color: #51384A; font-family: 'omnes-regular'; font-weight: 700; }
   .section_block h1 { font-size: 26px; text-align: center; }
   .section_block .sub_block_3 ul li { width: 100%; }
