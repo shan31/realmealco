@@ -153,28 +153,8 @@ font-size: 13px;
 .section_block .sub_block_3 ul li h2 { position: relative; padding-bottom: 25px; }
 .section_block .sub_block_3 ul li h2:after { position: absolute; content: ''; width: 70%; height: 1.5px; left: 40px; bottom: 0px; background-color: #51384A; }
 .section_block .sub_block_3 ul li p { font-family: 'omnes-medium'; font-size: 18px; font-weight: 300; }
-.green_img{
-    position: absolute;
-    right: 0px;
-    top: 25%;
-    width: 200px;
-    z-index: 1;
-    background-image: url(../img/green.png);
-    height: 560px;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-.grape_img{
-    position: absolute;
-    left: 0px;
-    bottom: 0%;
-    width: 200px;
-    z-index: 1;
-    background-image: url(../img/grape.png);
-    height: 850px;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+.green_img { position: absolute; right: 0px; top: 25%; width: 200px; z-index: 1; background-image: url(../img/green.png); height: 560px; background-repeat: no-repeat; background-size: contain; }
+.grape_img { position: absolute; left: 0px; bottom: 0%; width: 200px; z-index: 1; background-image: url(../img/grape.png); height: 850px; background-repeat: no-repeat; background-size: cover; }
 /*BEGIN SUB-BLOCK-4*/
 .section_block .sub_block_4 ul li { position: relative; display: inline-block; width: 100%; padding-bottom: 30px; }
 .section_block .sub_block_4 ul li h4 { padding: 15px 5px; position: relative; color: #6AA744; text-align: left; font-family: 'omnes-medium'; font-size: 24px; font-weight: 300; letter-spacing: 1px; }
