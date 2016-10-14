@@ -6,28 +6,25 @@
    /*=====  END BANNER SLIDER  ======*/
 
    /*=====  BEGIN MENU SECTION SLIDER  ======*/
- $('.slider1')
-   .bxSlider({
-     slideWidth: 545,
-     pager: false,
-     minSlides: 2,
-     maxSlides: 2,
-     slideMargin: 10
-   });
- var maxSlides,
-   width = $(window)
-   .width();
- if (width < 430) {
-   maxSlides = 1;
- } else {
+ // $('.slider1')
+ //   .bxSlider({
+ //     slideWidth: 545,
+ //     pager: false,
+ //     minSlides: 2,
+ //     maxSlides: 2,
+ //     slideMargin: 10
+ //   });
+ var maxSlides,width = $(window).width();
+ if (width > 430) {
    maxSlides = 2;
+ } else {
+   maxSlides = 1;
  }
  var myslider = $('.slider1')
    .bxSlider({
      slideWidth: 545,
      pager: false,
      maxSlides: maxSlides,
-     maxSlides: 2,
      slideMargin: 10,
      adaptiveHeight: true,
    });

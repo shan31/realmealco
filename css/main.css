@@ -213,7 +213,7 @@ a:hover, a:focus { text-decoration: none; }
 .faq  .panel-group .panel { border: none; border-bottom: 1px solid #000; border-radius: 0px; }
 .faq .panel-default >.panel-heading span { position: absolute; right: 10px; width: 30px; top: 7%; height: 30px; border: 1px solid rgba(41, 27, 18, 0.42); border-radius: 50%; text-align: center; line-height: 28px; text-indent: 1px; }
 .faq .panel-title>a { text-align: left; display: block; font-family: 'omnes-medium'; color: #4D4D4D; font-size: 16px; letter-spacing: 1px; }
-.faq  .panel-group { padding: 15px; }
+.faq  .panel-group { padding: 15px;margin: 0px;}
 /*END FAQ SECTION*/
 
 
@@ -237,8 +237,22 @@ a:hover, a:focus { text-decoration: none; }
 
 /*BREAK-POINTS*/
 /* Portrait */
+@media only screen and(max-width: 800px){
+	.ui-datepicker .ui-datepicker-next span{
+		left: 300px;
+		top: 0px;
+	}
+	.ui-datepicker .ui-datepicker-prev span{
+		    left: -12px;
+		    top: 0px;
+	}
+	.ui-widget.ui-widget-content{
+		width: 45em !important;
+	}
+}
 @media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio:1) {
   #navbar-primary .navbar-nav li a { padding-left: 80px; padding-right: 25px; }
+
 }
 @media screen and (max-width:767px) {
 	.footer .footer_content .footer_bottom p{padding: 10px 0px;}
