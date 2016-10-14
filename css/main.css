@@ -187,6 +187,36 @@ a:hover, a:focus { text-decoration: none; }
 
 /*END ORDER BLOCK-5*/
 
+/*SIGNUP BLOCK*/
+.signup_newsletter .signup_input{float: none;margin: 0 auto;}
+.signup_newsletter .signup_input .form-control{margin: 20px 0px;
+    background: #E9E9E9;
+    border: none;
+    border-radius: 0px;
+    height: 50px;     text-align: center;}
+    .signup_newsletter .signup_input span{    position: absolute;
+    right: -40px;
+    top: 0px;}
+    .signup_newsletter .signup_input .form-control::-webkit-input-placeholder { color: #291B12; font-size: 20px; }
+.signup_newsletter .signup_input .form-control:-moz-placeholder { color: #291B12; font-size: 20px; }
+.signup_newsletter .signup_input .form-control::-moz-placeholder { color: #291B12; font-size: 20px; }
+.signup_newsletter .signup_input .form-control:-ms-input-placeholder { color: #291B12; font-size: 20px; }
+    .signup_newsletter p{font-family: 'omnes-medium'; color: #4D4D4D; font-size: 16px; text-align: center;}
+/*END SIGNUP BLOCK*/
+
+/*FAQ SECTION*/
+.faq h1 { color: #90A2C3; }
+.faq h1:after, .faq h1:before { background-color: #90A2C3; }
+.faq .panel-default >.panel-heading { background: none; text-align: left; border: none; padding: 25px 0px 25px 5px; }
+.faq .panel-default >.panel-heading .panel-title.panel-title { position: relative; }
+.faq .panel-default>.panel-heading+.panel-collapse>.panel-body { border: none; color: #AEA79F; padding: 10px 5px; margin: 0px 0px 20px; font-size: 16px; text-align: justify; font-family: 'omnes-medium'; }
+.faq  .panel-group .panel { border: none; border-bottom: 1px solid #000; border-radius: 0px; }
+.faq .panel-default >.panel-heading span { position: absolute; right: 10px; width: 30px; top: 7%; height: 30px; border: 1px solid rgba(41, 27, 18, 0.42); border-radius: 50%; text-align: center; line-height: 28px; text-indent: 1px; }
+.faq .panel-title>a { text-align: left; display: block; font-family: 'omnes-medium'; color: #4D4D4D; font-size: 16px; letter-spacing: 1px; }
+.faq  .panel-group { padding: 15px; }
+/*END FAQ SECTION*/
+
+
 /*BEGIN FOOTER*/
 .footer { background: #51384A; display: table; width: 100%; padding: 30px; }
 .footer .footer_content .footer_four { border-bottom: 1px solid #fff; padding: 15px 0px 0px; }
@@ -196,10 +226,12 @@ a:hover, a:focus { text-decoration: none; }
 .footer .footer_content  ul li p { font-family: 'omnes-medium'; color: #fff; font-size: 16px; }
 .footer .footer_content .footer_phone { border-bottom: 2px solid #fff; padding: 10px 0px 10px; }
 .footer .footer_content .footer_phone ul { width: 68%; margin: 0px;float: right;}
+.footer .footer_content .footer_phone ul.mobile_social{float: left;}
 .footer .footer_content .footer_phone .mobile_social li { margin: 5px 15px; background-color: #FFFFFF; color: #51384A; font-size: 20px; }
 .footer .footer_content .footer_bottom { margin: 10px 0px; }
 .footer .footer_content .footer_bottom p{padding: 10px;}
-.footer .footer_content .footer_bottom .crafted_text { padding-right: 10%; line-height: 45px; }
+.footer .footer_content .footer_bottom .crafted_text {    padding: 0px;
+    padding-right: 10%; line-height: 45px; }
 .footer .footer_content .footer_bottom .diamond { right: 0px; }
 /*END FOOTER*/
 

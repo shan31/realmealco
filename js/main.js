@@ -81,3 +81,13 @@
      });
  });
  /*=====  END DATEPICKER FUNCTION ======*/
+
+
+function toggleChevron(e) {
+    $(e.target)
+        .prev('.panel-heading')
+        .find("i.indicator")
+        .toggleClass('fa fa-minus fa fa-plus');
+}
+$('#accordion,#accordion2').on('hidden.bs.collapse', toggleChevron);
+$('#accordion,#accordion2').on('shown.bs.collapse', toggleChevron);
