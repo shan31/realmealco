@@ -249,7 +249,7 @@ a:hover, a:focus { text-decoration: none; }
 }
 @media (max-width: 800px){
 	.footer .footer_content img{
-		left: 50px;
+		left: -50px;
 	}
 	.footer .footer_content .footer_bottom .diamond{
 		left: inherit;
