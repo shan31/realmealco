@@ -247,7 +247,7 @@ a:hover, a:focus { text-decoration: none; }
 		left: 0px;
 	}
 }
-@media only screen and(max-width: 800px){
+@media (max-width: 800px){
 	.footer .footer_content img{
 		left: 50px;
 	}
