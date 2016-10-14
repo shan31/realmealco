@@ -236,7 +236,17 @@ a:hover, a:focus { text-decoration: none; }
 /*END FOOTER*/
 
 /*BREAK-POINTS*/
-/* Portrait */
+@media only screen and(max-width: 1024px){
+	.bx-wrapper .bx-controls-direction a{
+		background-color: #fff;
+	}
+	.bx-wrapper .bx-next{
+		    right: 0px;
+	}
+	.bx-wrapper .bx-prev{
+		left: 0px;
+	}
+}
 @media only screen and(max-width: 800px){
 	.ui-datepicker .ui-datepicker-next span{
 		left: 300px;
