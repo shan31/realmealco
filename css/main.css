@@ -297,6 +297,66 @@ font-size: 13px;
 
 /*END FAQ SECTION*/
 
+/*BEGIN ABOUT PAGE.CSS*/
+.about_block .sub_block_4 p { color: #000; text-align: justify; font-size: 16px; font-family: 'omnes-medium'; margin: 25px 0px; padding: 0px 10px; }
+.about_block .sub_block_4 .real_meals h3 { text-align: left; font-size: 30px; color: #51384A; }
+.about_block .sub_block_4 .real_meals h3.green_text { color: #6AA744; }
+
+/*END ABOUT PAGE.CSS*/
+
+/*BEGIN CONTACT PAGE.CSS*/
+.contact_form { padding: 20% 0px 2%; }
+.contact_form h1 { font-size: 44px; color: #51384A; padding-bottom: 20px; border-bottom: 3px solid #51384A; }
+.contact_form h3 { text-align: left; color: #6AA744; padding-bottom: 20px; border-bottom: 1px solid #51384A; }
+.contact_form p { color: #51384A; font-size: 16px; font-family: 'omnes-medium';    font-weight: 700; }
+.contact_form .mobile_social { padding-top: 28%; margin-bottom: 0px; }
+.contact_form .mobile_social li { margin: 0px 20px; }
+.contact_form .form-control{    border-radius: 0px;
+    border: none;
+    height: 50px;
+    background: #E9E9E9;
+    box-shadow: none;}
+    .contact_form .form-control::-webkit-input-placeholder { color: #291B12; font-family: 'omnes-medium';    font-weight: 700; }
+.contact_form .form-control:-moz-placeholder { color: #291B12; font-family: 'omnes-medium';    font-weight: 700; }
+.contact_form .form-control::-moz-placeholder { color: #291B12; font-family: 'omnes-medium';    font-weight: 700; }
+.contact_form .form-control:-ms-input-placeholder { color: #291B12; font-family: 'omnes-medium';    font-weight: 700; }
+.contact_form textarea.form-control{height: auto;resize: none;}
+.contact_form .sign_in input {
+    margin-left: 0px;
+    border-radius: 0px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+        width: 190px;
+    background-position: 97%;
+    background-color: #6AA744;
+    padding-left: 1px;
+    text-align: left;
+    padding: 10px 10px;
+    
+    border-color: #6AA744;
+    font-size: 16px;
+    background-image: url(../img/mixwhite.png);
+    background-size: 35px;
+    background-repeat: no-repeat;
+}
+.contact_form blockquote{
+	     display: table;
+    padding: 0px;
+    text-align: left;
+    color: #000;
+    width: 100%;
+    margin: 20% 0px 0px;
+    border: none;
+}
+ .contact_img{
+	width: 100%;
+	height: 300px;
+	background-image: url('../img/contact.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/*END CONTACT PAGE.CSS*/
+
 /*BEGIN FOOTER*/
 .footer { background: #51384A; display: table; width: 100%; padding: 30px; }
 .footer .footer_content .footer_four { border-bottom: 1px solid #fff; padding: 15px 0px 0px; }
