@@ -236,7 +236,7 @@ a:hover, a:focus { text-decoration: none; }
 /*END FOOTER*/
 
 /*BREAK-POINTS*/
-@media only screen and(max-width: 1024px){
+@media (max-width: 1024px){
 	.bx-wrapper .bx-controls-direction a{
 		background-color: #fff;
 	}
