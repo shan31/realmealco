@@ -248,6 +248,12 @@ a:hover, a:focus { text-decoration: none; }
 	}
 }
 @media only screen and(max-width: 800px){
+	.footer .footer_content img{
+		left: 50px;
+	}
+	.footer .footer_content .footer_bottom .diamond{
+		left: inherit;
+	}
 	.ui-datepicker .ui-datepicker-next span{
 		left: 300px;
 		top: 0px;
