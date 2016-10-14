@@ -265,7 +265,11 @@ a:hover, a:focus { text-decoration: none; }
 	.ui-widget.ui-widget-content{
 		width: 45em !important;
 	}
-	#navbar-primary .navbar-nav li a { padding-left: 75px; padding-right: 25px; }
+	#navbar-primary .navbar-nav li a {
+    padding-left: 66px;
+    padding-right: 26px;
+}
+	#navbar-primary .navbar-nav li a img{    left: 2px;width: 130px;}
 }
 @media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio:1) {
   #navbar-primary .navbar-nav li a { padding-left: 75px; padding-right: 25px; }
