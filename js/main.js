@@ -88,3 +88,22 @@ function toggleChevron(e) {
 }
 $('#accordion,#accordion2').on('hidden.bs.collapse', toggleChevron);
 $('#accordion,#accordion2').on('shown.bs.collapse', toggleChevron);
+
+
+
+$('.login_click').click(function(){
+  $('.login_form').css('display',"block");
+});
+
+$(document).ready(function()
+{
+    $('body').mouseup(function(e)
+    {
+        var subject = $(".login_form"); 
+
+        if(e.target.id != subject.attr('id') && !subject.has(e.target).length)
+        {
+            subject.fadeOut();
+        }
+    });
+});
