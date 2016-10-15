@@ -80,6 +80,8 @@
  /*=====  END DATEPICKER FUNCTION ======*/
 
 
+/*=====  BEGIN  ACCORDION   ======*/
+
 function toggleChevron(e) {
     $(e.target)
         .prev('.panel-heading')
@@ -89,7 +91,10 @@ function toggleChevron(e) {
 $('#accordion,#accordion2').on('hidden.bs.collapse', toggleChevron);
 $('#accordion,#accordion2').on('shown.bs.collapse', toggleChevron);
 
+/*=====  END  ACCORDION   ======*/
 
+
+/*=====  BEGIN HEADER POPUP FUNCTION  ======*/
 
 $('.login_click').click(function(){
   $('.login_form').css('display',"block");
@@ -107,3 +112,14 @@ $(document).ready(function()
         }
     });
 });
+
+/*=====  END HEADER POPUP FUNCTION  ======*/
+
+
+
+/*=====  BEGIN ADD ADDRESS  ======*/
+$('.add_btn').click(function () {
+    $(this).next('ul').toggle();
+});
+
+/*=====  END ADD ADDRESS  ======*/
