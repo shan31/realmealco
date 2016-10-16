@@ -317,6 +317,29 @@ input[type="submit"]:focus {   box-shadow: none;  outline: none;background-posit
 .my_account .well .list_address .single_text_field{
     width: 100%;
 }
+.my_account .well .save_card{display: none;    margin: 10px 0px;
+    border-top: 5px solid #fff;
+    padding: 10px 0px;}
+ .my_account .well .save_card input[type="submit"]{margin: 0px;}
+ .my_account .well .save_card ul{height: 45px;
+    padding: 10px 0px;
+    line-height: 0px;
+    background: #fff;
+    margin-bottom: 0px}
+     .my_account .well .save_card ul li{
+     	margin-bottom: 0px;
+     }
+      .my_account .well .save_card ul li label{margin: 0px;}
+ .my_account .well.list_orders .list_address .single_text_field li:nth-child(1){
+ 	border-top: none; 
+
+ }
+  .my_account input[type="radio"] { display: none; }
+ .my_account input[type="radio"] + label { font-family: 'omnes-regular'; , sans-serif; color: #6AA744; font-size: 14px; cursor: pointer; }
+ .my_account input[type="radio"] + label span { display: inline-block; width: 20px; height: 20px; margin: -1px 4px 0 0; vertical-align: middle; cursor: pointer; -moz-border-radius: 50%; border-radius: 50%; }
+ .my_account input[type="radio"] + label span { background-color: #fff; border: 1px solid #6AA744; }
+ .my_account input[type="radio"]:checked + label span { background-color: #6AA744; border: 1px solid #6AA744; }
+ .my_account input[type="radio"] + label span { -webkit-transition: background-color 0.4s linear; -o-transition: background-color 0.4s linear; -moz-transition: background-color 0.4s linear; transition: background-color 0.4s linear; }
 /*END MY-ACCOUNT PAGE.CSS*/
 
 /*BEGIN FOOTER*/
