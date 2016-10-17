@@ -16,6 +16,10 @@ a:hover, a:focus { text-decoration: none; }
 .sticky_header .sticky_header_inner p { font-size: 24px; color: #51384A; font-family: 'omnes-regular'; font-weight: 700; }
 .sticky_header .sticky_header_inner p small { font-size: 16px; font-weight: 300; }
 .sticky_header .sticky_header_inner ul li a { font-family: 'omnes-medium'; color: #AEA79F; word-spacing: 5px; font-size: 15px; letter-spacing: 1px; }
+.sticky_header_inner .badge{    width: 20px;
+    height: 20px;
+    padding: 0px;
+    line-height: 20px;font-size: 10px;border-radius: 50%;background-color: #90A2C3;}
 .menu { top: -50px; }
 .menu ul { display: table; margin: 0 auto; }
 .menu ul li a { padding: 0px; }
@@ -27,7 +31,9 @@ a:hover, a:focus { text-decoration: none; }
 #navbar-primary .navbar-nav li a img { position: absolute; top: -132%; z-index: 9; left: -20px; transition: all 0.4s ease; }
 #navbar-primary .navbar-nav li a img.shrink { width: 100px; left: 25%; }
 .mobile_social li { width: 40px; height: 40px; line-height: 40px; background: #6AA744; border-radius: 50%; text-align: center; }
-
+.create_account { position: absolute; right: 0px; width: 250px; height: 120px; word-break: break-word; padding: 15%; z-index: 8; padding: 0px; padding: 25px 40px 25px; text-align: left; border-top-left-radius: 75px; border-bottom-left-radius: 75px; top: 40%; background-color: rgba(176, 211, 85, 0.84); }
+.create_account h2 { margin: 0px; letter-spacing: 1px; }
+.create_account a { color: #fff; }
 /*COMMON INPUT SUBMIT STYLES*/
 .btn:focus, .btn:active:focus{outline: none;}
 input[type="submit"] { margin-left: 10px;    margin: 10px 10px; background: #6aa744; border-top-right-radius: 25px; background-size: 35px; background-repeat: no-repeat; border-bottom-right-radius: 25px; background-image: url(../img/mixwhite.png); background-position: right 3px; padding: 12px 40px 12px 10px; color: #fff; font-size: 16px; border-color: #6aa744; }
@@ -138,7 +144,9 @@ input[type="submit"]:focus {   box-shadow: none;  outline: none;background-posit
 .order_block_5 input[type="radio"] + label span { -webkit-transition: background-color 0.4s linear; -o-transition: background-color 0.4s linear; -moz-transition: background-color 0.4s linear; transition: background-color 0.4s linear; }
 .up_css { position: absolute; left: 21%; top: 0px; }
 .down_css { position: absolute; top: -2px; left: 22%; }
-
+.order_block_5 .suburb input[type="submit"]{margin: 0px;}
+.order_block_5 .suburb h3{font-size: 32px;}
+.order_block_5 .suburb .form-group{margin: 0px;}
 /* BEGIN LOGIN OR CREATE ACCOUNT*/
 
 .order_block_5 a:hover, .order_block_5 a:focus { color: #6AA744; border-bottom: 3px solid #6AA744; }
@@ -159,7 +167,7 @@ input[type="submit"]:focus {   box-shadow: none;  outline: none;background-posit
 .order_block_5 .well a { font-size: 16px; padding: 0px 15px; width: auto; border: none; }
 .order_block_5 .well .sign_in input:focus { outline: none; }
 .order_block_5 .well ul li .form-control:focus { outline: none; box-shadow: none; border-color: #ccc; }
-.order_block_5 .well ul li .form-control { border-left: none; font-family: 'omnes-medium'; color: #6AA744; font-size: 18px; padding-left: 0px; border: none; letter-spacing: 1px; }
+.order_block_5 .well ul li .form-control {box-shadow: none; border-left: none; font-family: 'omnes-medium'; color: #6AA744; font-size: 18px; padding-left: 0px; border: none; letter-spacing: 1px; }
 
 /* END LOGIN OR CREATE ACCOUNT */
 
