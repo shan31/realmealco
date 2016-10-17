@@ -81,6 +81,13 @@ input[type="submit"]:focus {   box-shadow: none;  outline: none;background-posit
 .login_form input[type="radio"]:checked + label span { background-color: #6AA744; border: 1px solid #6AA744; }
 .login_form input[type="radio"] + label span { -webkit-transition: background-color 0.4s linear; -o-transition: background-color 0.4s linear; -moz-transition: background-color 0.4s linear; transition: background-color 0.4s linear; }
 
+input[type="checkbox"] { display: none; }
+input[type="checkbox"] + label { font-family: 'omnes-regular'; , sans-serif; color: #6AA744; font-size: 14px; cursor: pointer; }
+input[type="checkbox"] + label span { display: inline-block; width: 20px; height: 20px; margin: -1px 4px 0 0; vertical-align: middle; cursor: pointer; -moz-border-radius: 50%; border-radius: 50%; }
+input[type="checkbox"] + label span { background-color: #fff; border: 1px solid #6AA744; }
+input[type="checkbox"]:checked + label span { background-color: #6AA744; border: 1px solid #6AA744; }
+input[type="checkbox"] + label span { -webkit-transition: background-color 0.4s linear; -o-transition: background-color 0.4s linear; -moz-transition: background-color 0.4s linear; transition: background-color 0.4s linear; }
+
 /*END LOGIN FORM*/
 
 /*BEGIN SECTION BLOCK */
@@ -94,6 +101,8 @@ input[type="submit"]:focus {   box-shadow: none;  outline: none;background-posit
 .more_btn span img { position: absolute; position: absolute; left: -15px; width: 35px; top: -3px; border-radius: 50%; background-color: #fff; }
 
 /*BEGIN SUB-BLOCK-1*/
+.section_block .mob_block_1 h1{font-size: 36px;color: #90A2C3;}
+.section_block .mob_block_1 h1:before,.section_block .mob_block_1 h1:after{    height: 1px;background-color:#6AA744; }
 .sub_block_1, .sub_block_2, .sub_block_3 { margin: 15px 0px; }
 .sub_block_1 { padding: 15px 10px; }
 .sub_block_1 img { margin: 0 auto; }
@@ -115,7 +124,7 @@ input[type="submit"]:focus {   box-shadow: none;  outline: none;background-posit
 .grape_img { position: absolute; left: 0px; bottom: 0%; width: 200px; z-index: 1; background-image: url(../img/grape.png); height: 850px; background-repeat: no-repeat; background-size: cover; }
 
 /*BEGIN SUB-BLOCK-4*/
-.section_block .sub_block_4 ul li { position: relative; display: inline-block; width: 100%; padding-bottom: 30px; }
+.section_block .sub_block_4 ul li { position: relative; display: inline-block; width: 100%; padding-bottom: 30px;margin: 0px 0px 30px;}
 .section_block .sub_block_4 ul li h4 { padding: 15px 5px; position: relative; color: #6AA744; text-align: left; font-family: 'omnes-medium'; font-size: 24px; font-weight: 300; letter-spacing: 1px; }
 .section_block .sub_block_4 ul li:after, .section_block .sub_block_4 ul li:before { position: absolute; content: ''; width: 49%; height: 1px; background-color: #51384A; bottom: 0px; }
 .section_block .sub_block_4 ul li .bx-wrapper figure { position: relative; }
@@ -147,6 +156,7 @@ input[type="submit"]:focus {   box-shadow: none;  outline: none;background-posit
 .order_block_5 .suburb input[type="submit"]{margin: 0px;}
 .order_block_5 .suburb h3{font-size: 32px;}
 .order_block_5 .suburb .form-group{margin: 0px;}
+.order_block_5 .suburb .form-control{cursor: pointer;padding-left: 15px!important;font-family: 'omnes-medium'!important;color: #51384A!important;}
 /* BEGIN LOGIN OR CREATE ACCOUNT*/
 
 .order_block_5 a:hover, .order_block_5 a:focus { color: #6AA744; border-bottom: 3px solid #6AA744; }
@@ -213,7 +223,7 @@ input[type="submit"]:focus {   box-shadow: none;  outline: none;background-posit
 
 /*PAYMENT DETAILS*/
 .order_block_5 .card_details ul { margin: 0px 0px 10px; }
-.order_block_5 .order_summary { background-color: #c1bdb7; padding: 10px; width: 49%; }
+.order_block_5 .order_summary { background-color: #AEA79F; padding: 10px; width: 49%; }
 .order_block_5 .order_summary h2 { font-size: 32px; font-family: 'omnes-regular'; color: #291B12; text-align: left; font-weight: 100; }
 .order_block_5 .card_details input[type="radio"] + label { color: #51384A; font-size: 25px; word-break: break-word; float: left; font-weight: 300; }
 .order_block_5 .card_img { border-top: 5px solid #fff; }
@@ -242,6 +252,7 @@ input[type="submit"]:focus {   box-shadow: none;  outline: none;background-posit
 .signup_newsletter .signup_input .form-control::-moz-placeholder { color: #291B12; font-size: 20px; }
 .signup_newsletter .signup_input .form-control:-ms-input-placeholder { color: #291B12; font-size: 20px; }
 .signup_newsletter p { font-family: 'omnes-medium'; color: #4D4D4D; font-size: 16px; text-align: center; }
+.signup_newsletter .mob_submit input{margin: 0px 0px 20px;}
 
 /*END SIGNUP BLOCK*/
 
@@ -252,10 +263,11 @@ input[type="submit"]:focus {   box-shadow: none;  outline: none;background-posit
 .faq .panel-default >.panel-heading .panel-title.panel-title { position: relative; }
 .faq .panel-default>.panel-heading+.panel-collapse>.panel-body { border: none; color: #AEA79F; padding: 10px 5px; margin: 0px 0px 20px; font-size: 16px; text-align: justify; font-family: 'omnes-medium'; }
 .faq  .panel-group .panel { border: none; border-bottom: 1px solid #000; border-radius: 0px; }
-.faq .panel-default >.panel-heading span { position: absolute; right: 10px; width: 30px; top: 7%; height: 30px; border: 1px solid rgba(41, 27, 18, 0.42); border-radius: 50%; text-align: center; line-height: 28px; text-indent: 1px; }
-.faq .panel-title>a { text-align: left; display: block; font-family: 'omnes-medium'; color: #4D4D4D; font-size: 16px; letter-spacing: 1px; }
-.faq  .panel-group { padding: 15px; margin: 0px; }
-
+.faq .panel-default >.panel-heading span { position: absolute; right: 10px; width: 30px;top: -15%; height: 30px; border: 1px solid rgba(41, 27, 18, 0.42); border-radius: 50%; text-align: center; line-height: 28px; text-indent: 1px; }
+.faq .panel-title>a { text-align: left; display: block; font-family: 'omnes-medium'; color: #4D4D4D; font-size: 16px; letter-spacing: 1px;padding-right: 20%; }
+.faq  .panel-group { margin: 0px; }
+.faq  #accordion.panel-group{padding-left: 10px;}
+.faq  #accordion2.panel-group{padding-right: 10px;}
 /*END FAQ SECTION*/
 
 /*BEGIN ABOUT PAGE.CSS*/
@@ -362,8 +374,8 @@ input[type="submit"]:focus {   box-shadow: none;  outline: none;background-posit
 .footer .footer_content .footer_phone ul.mobile_social { float: left; }
 .footer .footer_content .footer_phone .mobile_social li { margin: 5px 15px; background-color: #FFFFFF; color: #51384A; font-size: 20px; }
 .footer .footer_content .footer_bottom { margin: 10px 0px; }
-.footer .footer_content .footer_bottom p { padding: 10px; }
-.footer .footer_content .footer_bottom .crafted_text { padding: 0px; padding-right: 10%; line-height: 45px; }
+.footer .footer_content .footer_bottom p {     padding: 10px 30px 10px 0px; }
+.footer .footer_content .footer_bottom .crafted_text { padding: 0px; padding-right: 10%; line-height: 35px; }
 .footer .footer_content .footer_bottom .diamond { right: 0px; }
 
 /*END FOOTER*/
@@ -387,6 +399,13 @@ input[type="submit"]:focus {   box-shadow: none;  outline: none;background-posit
     #navbar-primary .navbar-nav li a { padding-left: 75px; padding-right: 25px; }
 }
 @media screen and (max-width:767px) {
+	.faq #accordion2.panel-group {
+    padding-right: 0px;
+}
+	.faq #accordion.panel-group {
+    padding-left: 0px;
+}
+	.faq .panel-title>a{padding-right: 20%;}
     .my_account { padding: 45% 0px 2%; }
     .contact_form { padding: 45% 0px 2%; }
     .order_block_5 .card_details input[type="radio"] + label { font-size: 16px; }
@@ -396,7 +415,7 @@ input[type="submit"]:focus {   box-shadow: none;  outline: none;background-posit
     .order_block_5 .well ul li .form-control::-webkit-input-placeholder { font-family: 'omnes-medium'; color: #51384A; font-weight: 700; letter-spacing: 1px; font-size: 12px; }
     .signup_newsletter .signup_input .form-control::-webkit-input-placeholder { color: #291B12; font-size: 16px; }
     .faq  .panel-group { padding: 0px; }
-    .footer .footer_content .footer_bottom p { padding: 10px 0px; margin: 0px; }
+    .footer .footer_content .footer_bottom p {     padding: 10px 30px 10px 0px; margin: 0px;}
     .footer .footer_content .footer_phone ul { width: 100%; margin: 0px; float: left; }
     .footer .footer_content img { position: relative; }
     .order_block_5 #collapseExample3 ul { margin: 0px; display: table; width: 100%; text-align: left; padding: 20px 0px; }
@@ -407,11 +426,12 @@ input[type="submit"]:focus {   box-shadow: none;  outline: none;background-posit
     .order_block_5 h3 { font-size: 16px; }
     .order_block_5 .well ul li { width: 96%; }
     .ui-datepicker .ui-datepicker-prev span { top: -5px; height: 50px; left: 0px; }
-    .ui-datepicker .ui-datepicker-next span { top: -420px !important; height: 50px; left: 220px; }
+    .ui-datepicker .ui-datepicker-next span { top: 0px !important; height: 50px; left: 210px; }
     .order_block_5 #collapseExample3 .well a { padding: 0px; }
     .ui-datepicker-multi-2 .ui-datepicker-group { border-right: none; }
     .ui-datepicker-multi-2 .ui-datepicker-group { width: 100%; }
-    .ui-widget.ui-widget-content { width: 17.5em !important }
+    .ui-datepicker .ui-datepicker-title{    margin: 15px 0.3em;}
+    .ui-widget.ui-widget-content { width: 17.5em !important;    background-color: #fff;}
     .order_block_5 a { font-size: 17px; padding: 20px 0px; }
     .order_block_5 a span { position: absolute; right: 0px; font-size: 20px; width: 30px; line-height: 23px; top: 20px; height: 30px; text-align: center; font-weight: 300; border-radius: 50%; border: 2px solid #6AA744; }
     .up_css { position: absolute; left: 24%; top: 4px; }
@@ -421,12 +441,12 @@ input[type="submit"]:focus {   box-shadow: none;  outline: none;background-posit
     .section_block .sub_block_3 ul li h2:after { width: 100%; left: 0px; }
     .section_block .sub_block_3 img { margin: 0 auto; }
     .section_block h1:after, .section_block h1:before { width: 50%; }
-    .section_block h1 { font-size: 37px; }
+  .container-fluid{padding: 0px;}
     #navbar-primary .navbar-nav li { float: left; width: 100%; text-align: left; }
     .navbar-header { padding: 10px; }
     .navbar-header ul { margin: 0px; }
     .sticky_header .sticky_header_inner ul.mob_sign a { font-size: 16px; color: #51384A; font-family: 'omnes-regular'; font-weight: 700; }
-    .section_block h1 { font-size: 26px; text-align: center; }
+    .section_block h1 { font-size: 40px; text-align: center; }
     .section_block .sub_block_3 ul li { width: 100%; }
     .bx-wrapper .bx-controls-direction a { bottom: -50px; top: inherit; }
     .bx-wrapper .bx-prev { left: 0px; }
@@ -442,11 +462,25 @@ input[type="submit"]:focus {   box-shadow: none;  outline: none;background-posit
     .footer .footer_content .footer_phone { border: none; }
     .footer .footer_content .footer_bottom .crafted_text { padding: 0px; padding-right: 21%; line-height: 30px; }
     .footer .footer_content .footer_bottom .diamond { left: inherit; right: 0px !important; position: absolute; }
+    .faq{margin-bottom: 20px;}
 }
 @media screen and (max-width:480px) {
     .carousel-caption h1 { font-size: 24px; }
 }
 @media screen and (max-width:360px) {
     .order_block_5 a { font-size: 13px; }
+    .ui-datepicker .ui-datepicker-next span {
+    top: 0px !important;
+    height: 50px;
+    left: 182px;
+}
+.order_block_5 #collapseExample3 .well a{
+	    margin: 5px;
+}
+.ui-widget.ui-widget-content {
+    width: 15.5em !important;
+    background-color: #fff;
+}
+
 }
 /*END BREAK-POINTS

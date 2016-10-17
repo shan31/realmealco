@@ -6,14 +6,6 @@
    /*=====  END BANNER SLIDER  ======*/
 
    /*=====  BEGIN MENU SECTION SLIDER  ======*/
- // $('.slider1')
- //   .bxSlider({
- //     slideWidth: 545,
- //     pager: false,
- //     minSlides: 2,
- //     maxSlides: 2,
- //     slideMargin: 10
- //   });
  var maxSlides,width = $(window).width();
  if (width > 430) {
    maxSlides = 2;
@@ -58,13 +50,16 @@
  /*=====  END HEADER IMAGE SCROLL ANIMATION  ======*/
  
  /*=====  BEGIN DATEPICKER FUNCTION ======*/
- var SelectedDates = {};
+var nom=1;
+if(width > 768){var nom=2;}
+    
+var SelectedDates = {};
  SelectedDates[new Date('09/08/2012')] = new Date('09/08/2012');
  SelectedDates[new Date('09/09/2012')] = new Date('09/09/2012');
  $(function () {
    $("#datepicker")
      .datepicker({
-       numberOfMonths: 2,
+       numberOfMonths: nom,
        autoSize: true,
        showOtherMonths: true,
        selectOtherMonths: true,
@@ -100,8 +95,7 @@ $('.login_click').click(function(){
   $('.login_form').css('display',"block");
 });
 
-$(document).ready(function()
-{
+
     $('body').mouseup(function(e)
     {
         var subject = $(".login_form"); 
@@ -111,7 +105,7 @@ $(document).ready(function()
             subject.fadeOut();
         }
     });
-});
+
 
 /*=====  END HEADER POPUP FUNCTION  ======*/
 

@@ -61,8 +61,8 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 sign_in col-condensed">
-                                            <input type="submit" class="btn btn-info pull-left" value="Sign In">
-                                        </div>
+                                    <input type="submit" class="btn btn-info pull-left" value="Sign In">
+                                </div>
                             </form>
                         </div>
                     </li>
@@ -110,9 +110,9 @@
     </div>
     <!-- Full Page Image Background Carousel Header -->
     <div id="myCarousel" class="carousel slide carousel-fade">
-    <div class="create_account">
-     <a href="javascript::void(0)"><h2>Create  an <br> Account</h2></a>   
-    </div>
+        <div class="create_account">
+            <a href="javascript::void(0)"><h2>Create  an <br> Account</h2></a>
+        </div>
         <!-- Indicators -->
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -125,21 +125,21 @@
             <div class="item active">
                 <!-- Set the first background image using inline CSS below. -->
                 <div class="fill" style="background-image:url('img/banner.png');"></div>
-                <div class="carousel-caption">
+                <div class="carousel-caption hidden-xs">
                     <h1> Delivering prepared real food <br> to help support chronic illness.</h1>
                 </div>
             </div>
             <div class="item">
                 <!-- Set the second background image using inline CSS below. -->
                 <div class="fill" style="background-image:url('img/banner2.png');"></div>
-                <div class="carousel-caption">
+                <div class="carousel-caption hidden-xs">
                     <h1> Delivering prepared real food <br> to help support chronic illness.</h1>
                 </div>
             </div>
             <div class="item">
                 <!-- Set the third background image using inline CSS below. -->
                 <div class="fill" style="background-image:url('img/banner1.png');"></div>
-                <div class="carousel-caption">
+                <div class="carousel-caption hidden-xs">
                     <h1> Delivering prepared real food <br> to help support chronic illness.</h1>
                 </div>
             </div>
@@ -154,14 +154,15 @@
     </div>
     <!-- BEGIN CONTAINER-FLUID -->
     <div class="container-fluid " style="position: relative;">
-      <div class="green_img">
-               
-                </div>
-                <div class="grape_img">
-               
-                </div>
+        <div class="green_img">
+        </div>
+        <div class="grape_img">
+        </div>
         <!--  SECTION BLOCK -->
         <div class="container section_block">
+            <div class="col-xs-12 mob_block_1 hidden-lg hidden-md hidden-sm  visible-xs">
+                <h1>Delivering prepared real food to help support chronic illness.</h1>
+            </div>
             <!-- SUB BLOCK_1 -->
             <div class="col-xs-12 sub_block_1">
                 <img src="img/mix.png" class="img-responsive">
@@ -179,10 +180,8 @@
                 </ul>
             </div>
             <!-- END SUB BLOCK_2 -->
-          
             <!-- BEGIN SUB BLOCK_3 -->
             <div class="col-xs-12 sub_block_3">
-                
                 <h1>How easy is it to “Go Real?”</h1>
                 <h2>We make it really simple to go real and here’s how we do it. </h2>
                 <ul class="list-inline">
@@ -504,6 +503,9 @@
                                 <!-- END SIGN IN -->
                                 <!-- CREATE ACCOUNT -->
                                 <div class="col-xs-12 account_create col-condensed">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 sign_in">
+                                        <input type="submit" class="btn btn-info pull-left big" value="Click here to create a Account">
+                                    </div>
                                     <h3>Not a member? <br> Create an account here.</h3>
                                     <ul class="list-inline">
                                         <li>
@@ -544,17 +546,17 @@
                                             <div class="col-xs-12 col-condensed">
                                                 <h3>We currently only deliver within Auckland. Please check below to see if we deliver to your suburb</h3>
                                                 <div class="form-group">
-                                                  <select class="form-control" id="sel1">
-                                                    <option>1</option>
-                                                    <option>2</option>
-                                                    <option>3</option>
-                                                    <option>4</option>
-                                                  </select>
+                                                    <select class="form-control" id="sel1">
+                                                        <option value="" disabled selected>Suburb drop down menu</option>
+                                                        <option>2</option>
+                                                        <option>3</option>
+                                                        <option>4</option>
+                                                    </select>
                                                 </div>
                                             </div>
                                         </li>
                                         <li>
-                                             <input type="submit" class="btn btn-info pull-left big" value="Check">
+                                            <input type="submit" class="btn btn-info pull-left big" value="Check">
                                         </li>
                                     </ul>
                                     <ul class="list-inline single_text_field">
@@ -609,20 +611,20 @@
                                     <ul class="list-inline">
                                         <li>
                                             <div class="col-xs-12 col-condensed">
-                                                <input type="radio" id="radio02" name="radio">
-                                                <label for="radio02"><span></span>Break Fast</label>
+                                                <input type="checkbox" id="checkbox1" name="radio">
+                                                <label for="checkbox1"><span></span>Break Fast</label>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="col-xs-12 col-condensed">
-                                                <input type="radio" id="radio03" name="radio">
-                                                <label for="radio03"><span></span>Lunch</label>
+                                                <input type="checkbox" id="checkbox2" name="radio">
+                                                <label for="checkbox2"><span></span>Break Fast</label>
                                             </div>
                                         </li>
                                         <li>
                                             <div class="col-xs-12 col-condensed">
-                                                <input type="radio" id="radio04" name="radio">
-                                                <label for="radio04"><span></span>Dinner</label>
+                                                <input type="checkbox" id="checkbox3" name="radio">
+                                                <label for="checkbox3"><span></span>Break Fast</label>
                                             </div>
                                         </li>
                                     </ul>
@@ -908,6 +910,9 @@
                         <input type="text" class="form-control" id="usr" placeholder="Enter your email address here:">
                         <span class="hidden-xs"><a href="javascript::void(0)"><img alt="" class="img-responsive" src="img/right_arrow.png"></a></span>
                     </div>
+                    <div class="col-xs-12 col-condensed mob_submit hidden-lg hidden-md hidden-sm visible-xs">
+                        <input type="submit" class="btn btn-info pull-left " value="submit">
+                    </div>
                     <p>We do not share the information you submit to us.</p>
                 </div>
             </div>
@@ -1099,8 +1104,8 @@
                         <p class="pull-left">Terms and Conditions</p>
                         <p class="pull-left">All content © The Real Meal Company Limited. 2016</p>
                     </div>
-                    <div class="col-xs-12  col-condensed footer_bottom">
-                        <p class="pull-right crafted_text">Lovingly crafted and built by Intuit Creative</p>
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 col-condensed footer_bottom pull-right">
+                        <p class="pull-left crafted_text">Lovingly crafted and built by Intuit Creative</p>
                         <img class="diamond" src="img/diamond.png" alt="">
                     </div>
                 </div>
