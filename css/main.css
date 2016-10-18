@@ -191,7 +191,20 @@ input[type="checkbox"] + label span { -webkit-transition: background-color 0.4s 
 .order_block_5 .well .meals_plan ul li { width: 100%; }
 .order_block_5 .well .meals_plan input[type="radio"] + label { color: #000; font-weight: 200; text-indent: 0px; margin: 8px 0px; }
 .order_block_5 .well .meals_plan input[type="radio"] + label span { margin-right: 10px; }
-
+.order_block_5 .well .meals_plan span{    color: #51384A;
+    font-size: 36px;
+    line-height: 32px;
+    /* line-height: 20px; */
+    padding: 10px 0px;}
+.order_block_5 .well .meals_plan span p{
+        float: right;
+    font-size: 18px;
+    margin: 0px;
+    line-height: 20px;
+    text-transform: uppercase;
+    padding-left: 10px;
+    text-align: left;
+}
 /*END BEGIN SELECT MEALS COMBINATION*/
 
 /*BEGIN DEITARY BLOCK*/
@@ -381,7 +394,12 @@ input[type="checkbox"] + label span { -webkit-transition: background-color 0.4s 
 /*END FOOTER*/
 
 /*BREAK-POINTS*/
+@media (max-width:1200px) {
+	.contact_form .mobile_social li{margin: 0px 10px;}
+}
 @media (max-width:1024px) {
+
+	.contact_form .mobile_social li{margin: 0px 5px;}
     .green_img, .grape_img { display: none; }
     .bx-wrapper .bx-controls-direction a { background-color: #fff; }
     .bx-wrapper .bx-next { right: 0px; }
@@ -399,6 +417,8 @@ input[type="checkbox"] + label span { -webkit-transition: background-color 0.4s 
     #navbar-primary .navbar-nav li a { padding-left: 75px; padding-right: 25px; }
 }
 @media screen and (max-width:767px) {
+	.contact_form blockquote{margin:5% 0px 0px;}
+	.contact_form .mobile_social{padding-top: 5%;}
 	.faq #accordion2.panel-group {
     padding-right: 0px;
 }

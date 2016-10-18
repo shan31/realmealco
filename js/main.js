@@ -117,3 +117,10 @@ $('.add_btn').click(function () {
 });
 
 /*=====  END ADD ADDRESS  ======*/
+
+
+$(".meal_btn").click(function() {
+    $('html, body').animate({
+        scrollTop: $(".sub_block_4").offset().top
+    }, 1000);
+});
