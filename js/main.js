@@ -124,3 +124,9 @@ $(".meal_btn").click(function() {
         scrollTop: $(".sub_block_4").offset().top
     }, 1000);
 });
+
+$(".faq_btn").click(function() {
+    $('html, body').animate({
+        scrollTop: $(".faq").offset().top
+    }, 1000);
+});
