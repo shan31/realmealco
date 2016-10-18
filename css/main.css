@@ -66,7 +66,7 @@ input[type="submit"]:focus {   box-shadow: none;  outline: none;background-posit
 /*END BANNER CAROUSEL*/
 
 /*LOGIN FORM*/
-.login_form { position: absolute; right: 15%; width: 330px; height: 330px; background-color: #fff; top: 0px; z-index: 9; display: none; padding: 20px; box-shadow: 1px 8px 20px #808080; }
+.login_form { position: absolute; right: 15%; width: 330px; height: 330px; background-color: #fff; top: 0px; z-index: 10; display: none; padding: 20px; box-shadow: 1px 8px 20px #808080; }
 .login_form a { padding: 0px 0px 10px; }
 .login_form .input-group-addon { background-color: #fff; font-family: 'omnes-regular'; color: #AEA79F; font-weight: 300; font-size: 16px; letter-spacing: 1px; border: none; }
 .login_form .form-control:focus { outline: none; box-shadow: none; }
@@ -130,7 +130,7 @@ input[type="checkbox"] + label span { -webkit-transition: background-color 0.4s 
 .section_block .sub_block_4 ul li .bx-wrapper figure { position: relative; }
 .section_block .sub_block_4 ul li .bx-wrapper figure img { width: 100%; border: 1px solid #ccc; }
 .section_block .sub_block_4 ul li .bx-wrapper figure figcaption { display: block; position: absolute; top: 0; left: 25%; padding: 10px; opacity: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0); transition: all 0.2s 0.1s ease-in-out; }
-.section_block .sub_block_4 ul li .bx-wrapper figure:hover figcaption { opacity: 1; background: rgba(0, 0, 0, 0.7); transition: all 0.2s ease-in-out; }
+.section_block .sub_block_4 ul li .bx-wrapper figure:hover figcaption { opacity: 1; background: rgba(62, 26, 52, 0.85); transition: all 0.2s ease-in-out; }
 .section_block .sub_block_4 ul li .bx-wrapper figure figcaption h5 { text-align: left; color: #B0D355; font-family: 'omnes-light'; font-size: 18px; font-weight: 600; letter-spacing: 1px; }
 .section_block .sub_block_4 ul li .bx-wrapper figure figcaption p { text-align: left; font-size: 16px; }
 .section_block .sub_block_4 ul li .bx-wrapper figure:hover figcaption { right: 0; }
@@ -178,6 +178,7 @@ input[type="checkbox"] + label span { -webkit-transition: background-color 0.4s 
 .order_block_5 .well .sign_in input:focus { outline: none; }
 .order_block_5 .well ul li .form-control:focus { outline: none; box-shadow: none; border-color: #ccc; }
 .order_block_5 .well ul li .form-control {box-shadow: none; border-left: none; font-family: 'omnes-medium'; color: #6AA744; font-size: 18px; padding-left: 0px; border: none; letter-spacing: 1px; }
+
 
 /* END LOGIN OR CREATE ACCOUNT */
 
@@ -251,7 +252,11 @@ input[type="checkbox"] + label span { -webkit-transition: background-color 0.4s 
 .order_block_5 .order_summary .order_cost { border-top: none; }
 .order_block_5 #collapseExample4 .well { padding: 10px 0px 0px; }
 .order_block_5 .order_summary .delivery_msg { font-size: 16px; font-family: 'omnes-regular'; font-size: 16px; font-family: 'omnes-regular'; }
-
+.terms_conditions span { float: left; margin-top: 10px !important; }
+.terms_conditions p { float: left; line-height: 25px; margin: 0px; padding-left: 10px; line-height: 40px; }
+.place_order { background: #51384A!important;border-color:#51384A!important; background-image: url(../img/mixwhite.png)!important;        background-repeat: no-repeat!important;
+    background-position: right 3px!important;
+    background-size: 35px!important;}
 /*END PAYMENT DETAILS*/
 
 /*END ORDER BLOCK-5*/
