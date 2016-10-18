@@ -2,7 +2,7 @@
  $('.carousel')
    .carousel({
      interval: 5000 //changes the speed
-   })
+   });
    /*=====  END BANNER SLIDER  ======*/
 
    /*=====  BEGIN MENU SECTION SLIDER  ======*/
@@ -28,7 +28,7 @@
  filtertype.click(function () {
    $(this)
      .find('span i')
-     .toggleClass('fa-angle-down fa-angle-up')
+     .toggleClass('fa-angle-down fa-angle-up');
    $(this)
      .find('span i')
      .toggleClass('down_css up_css ');
@@ -119,6 +119,9 @@ $('.add_btn').click(function () {
 /*=====  END ADD ADDRESS  ======*/
 
 
+/*=====  BEGIN HEADER SCROLL  ======*/
+
+
 $(".meal_btn").click(function() {
     $('html, body').animate({
         scrollTop: $(".sub_block_4").offset().top
@@ -130,3 +133,5 @@ $(".faq_btn").click(function() {
         scrollTop: $(".faq").offset().top
     }, 1000);
 });
+
+/*=====  END HEADER SCROLL  ======*/
