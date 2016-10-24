@@ -65,7 +65,8 @@ input[type="submit"]:focus { box-shadow: none; outline: none; background-positio
 /*END BANNER CAROUSEL*/
 
 /*LOGIN FORM*/
-.login_form { position: absolute; right: 15%; width: 330px; height: 330px; background-color: #fff; top: 0px; z-index: 10; display: none; padding: 20px; box-shadow: 1px 8px 20px #808080; }
+.login_form .logmes { margin:0 auto; color:#51384A;}
+.login_form { position: absolute; right: 15%; width: 330px; height: auto; background-color: #fff; top: 0px; z-index: 10; display: none; padding: 20px; box-shadow: 1px 8px 20px #808080; }
 .login_form a { padding: 0px 0px 10px; }
 .login_form .input-group-addon { background-color: #fff; font-family: 'omnes-regular'; color: #AEA79F; font-weight: 300; font-size: 16px; letter-spacing: 1px; border: none; }
 .login_form .form-control:focus { outline: none; box-shadow: none; }
@@ -89,8 +90,10 @@ input[type="checkbox"] + label span { -webkit-transition: background-color 0.4s 
 /*END LOGIN FORM*/
 
 /*BEGIN SECTION BLOCK */
+.section_block .sub_block_1, .section_block .sub_block_2, .section_block .sub_block_3, .section_block .sub_block_4,.section_block .order_block_5,.section_block .signup_newsletter,.section_block .faq{    margin: 25px 0px!important;}
+
 .section_block { position: relative; bottom: 60px; text-align: center; background-color: #fff;    /* border: 1px solid #ccc; */ padding-bottom: 25px; }
-.section_block h1 { font-size: 44px; color: #51384A; position: relative; padding-bottom: 25px; margin-bottom: 0px; font-family: 'rufinaregular'; }
+.section_block h1 {    padding-top: 20px;font-size: 44px; color: #51384A; position: relative; padding-bottom: 25px; margin-bottom: 0px; font-family: 'rufinaregular';margin: 15px 0px; }
 .section_block h1:after, .section_block h1:before { position: absolute; content: ''; width: 49%; height: 3px; background-color: #51384A; bottom: 0px; }
 .section_block h1:after { left: 0px; }
 .section_block h1:before { right: 0px; }
@@ -119,9 +122,10 @@ input[type="checkbox"] + label span { -webkit-transition: background-color 0.4s 
 .section_block .sub_block_3 ul li h2:after { position: absolute; content: ''; width: 70%; height: 1.5px; left: 40px; bottom: 0px; background-color: #51384A; }
 .section_block .sub_block_3 ul li p { font-family: 'omnes-medium'; font-size: 18px; font-weight: 300; }
 .green_img { position: absolute; right: 0px; top: 25%; width: 200px; z-index: 1; background-image: url(../img/green.png); height: 560px; background-repeat: no-repeat; background-size: contain; }
-.grape_img { position: absolute; left: 0px; bottom: 0%; width: 200px; z-index: 1; background-image: url(../img/grape.png); height: 850px; background-repeat: no-repeat; background-size: cover; }
+.grape_img { position: absolute; left: 0px; bottom: 0%; width: 200px; z-index: 0; background-image: url(../img/grape1.png); height: 850px; background-repeat: no-repeat; background-size: cover; }
 
 /*BEGIN SUB-BLOCK-4*/
+.section_block .sub_block_4 {margin: 20px auto 0px;}
 .section_block .sub_block_4 ul li { position: relative; display: inline-block; width: 100%; padding-bottom: 30px; margin: 0px 0px 30px; }
 .section_block .sub_block_4 ul li h4 { padding: 15px 5px; position: relative; color: #6AA744; text-align: left; font-family: 'omnes-medium'; font-size: 24px; font-weight: 300; letter-spacing: 1px; }
 .section_block .sub_block_4 ul li:after, .section_block .sub_block_4 ul li:before { position: absolute; content: ''; width: 49%; height: 1px; background-color: #51384A; bottom: 0px; }
@@ -259,7 +263,7 @@ input[type="checkbox"] + label span { -webkit-transition: background-color 0.4s 
 /*END SIGNUP BLOCK*/
 
 /*FAQ SECTION*/
-.faq h1 { color: #90A2C3; }
+.faq h1 { color: #90A2C3;            padding-left: 35px;    padding-top: 20px;}
 .faq h1:after, .faq h1:before { background-color: #90A2C3; }
 .faq .panel-default >.panel-heading { background: none; text-align: left; border: none; padding: 25px 0px 25px 5px; }
 .faq .panel-default >.panel-heading .panel-title.panel-title { position: relative; }

@@ -124,13 +124,13 @@ $('.add_btn').click(function () {
 
 $(".meal_btn").click(function() {
     $('html, body').animate({
-        scrollTop: $(".sub_block_4").offset().top
+        scrollTop: $(".sub_block_3 .more_btn").offset().top
     }, 1000);
 });
 
 $(".faq_btn").click(function() {
     $('html, body').animate({
-        scrollTop: $(".faq").offset().top
+        scrollTop: $(".sub_block_4 .dinner .more_btn").offset().top
     }, 1000);
 });
 
