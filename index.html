@@ -1120,7 +1120,46 @@
     <script src="js/vendor/bootstrap.min.js"></script>
     <script src="js/vendor/jquery-ui.min.js"></script>
     <script src="js/vendor/jquery.bxslider.min.js"></script>
+    <script type="text/javascript" src="js/vendor/jquery-ui.multidatespicker.js"></script>
     <script src="js/main.js"></script>
+    <script type="text/javascript">
+        $('#datePicker')
+        .datePicker(
+            {
+                createButton:false,
+                displayClose:true,
+                closeOnSelect:false,
+                selectMultiple:true
+            }
+        )
+        .bind(
+            'click',
+            function()
+            {
+                $(this).dpDisplay();
+                this.blur();
+                return false;
+            }
+        )
+        .bind(
+            'dateSelected',
+            function(e, selectedDate, $td, state)
+            {
+                console.log('You ' + (state ? '' : 'un') // wrap
+                    + 'selected ' + selectedDate);
+                
+            }
+        )
+        .bind(
+            'dpClosed',
+            function(e, selectedDates)
+            {
+                console.log('You closed the date picker and the ' // wrap
+                    + 'currently selected dates are:');
+                console.log(selectedDates);
+            }
+        );
+    </script>
 </body>
 
 </html>

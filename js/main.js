@@ -56,12 +56,28 @@ if(width > 768){var nom=2;}
 var SelectedDates = {};
  SelectedDates[new Date('09/08/2012')] = new Date('09/08/2012');
  SelectedDates[new Date('09/09/2012')] = new Date('09/09/2012');
+ // $(function () {
+ //   $("#datepicker")
+ //     .datepicker({
+ //       numberOfMonths: nom,
+ //       autoSize: true,
+ //       showOtherMonths: true,
+ //       selectOtherMonths: true,
+ //       beforeShowDay: function (date) {
+ //         if (date.getDay() == 2 || date.getDay() == 4) {
+ //           return [true, "Highlighted", ''];
+ //         } else {
+ //           return [true, '', ''];
+ //         }
+ //       }
+ //     });
+ // });
  $(function () {
-   $("#datepicker")
-     .datepicker({
-       numberOfMonths: nom,
+   $('#datepicker').multiDatesPicker({
+    numberOfMonths: nom,
        autoSize: true,
        showOtherMonths: true,
+       maxPicks: 1,
        selectOtherMonths: true,
        beforeShowDay: function (date) {
          if (date.getDay() == 2 || date.getDay() == 4) {
@@ -70,8 +86,10 @@ var SelectedDates = {};
            return [true, '', ''];
          }
        }
-     });
+});
  });
+
+
  /*=====  END DATEPICKER FUNCTION ======*/
 
 

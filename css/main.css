@@ -218,8 +218,11 @@ input[type="checkbox"] + label span { -webkit-transition: background-color 0.4s 
 .order_block_5 #collapseExample3 ul { margin: 0px; display: table; width: auto; text-align: right; padding: 15px 0% 15px 45%; }
 .order_block_5 #collapseExample3 ul li { width: auto; }
 .order_block_5 #collapseExample3 .well a { padding: 5px; text-align: center; margin: 8px; position: relative; }
-.Highlighted a { background-color: #fff !important; background-image: none !important; color: #6AA744 !important; font-weight: bold !important; text-align: center !important; font-size: 12pt; padding: 5px 5px !important; border-radius: 50%; border: 1px solid #6AA744 !important; }
-.Highlighted .ui-state-active, .ui-widget-content .ui-state-active { background-color: #6AA744 !important; color: #fff !important; }
+.Highlighted a { width: 30px !important; height: 30px; background-color: #fff !important; background-image: none !important; color: #000 !important; font-weight: bold !important; text-align: center !important; font-size: 12pt; padding: 3px !important; margin: 5px auto !important; border-radius: 50%; border: 1px solid #6AA744 !important; }
+.ui-state-default { width: 20px !important; height: 20px; background-color: #fff !important; background-image: none !important; color: #000 !important; font-weight: bold !important; text-align: center !important; font-size: 12pt; margin: 5px auto !important; padding: 0px !important; border-radius: 50%; border: none !important; }
+.ui-state-highlight { width: 20px !important; height: 20px; background-color: #fff !important; background-image: none !important; color: #6AA744 !important; font-weight: bold !important; text-align: center !important; font-size: 12pt; padding: 0px !important; border-radius: 50%; border: none !important; }
+.ui-state-highlight  a { width: 30px !important; height: 30px; background-color: #6AA744 !important; background-image: none !important; color: #fff !important; font-weight: bold !important; text-align: center !important; font-size: 12pt; padding: 3px !important; margin: 5px auto !important; border-radius: 50%; border: 1px solid #6AA744 !important; }
+.Highlighted .ui-state-active, .ui-widget-content .ui-state-active { background-color: #fff; color: #6AA744; border-color: #6AA744; }
 .ui-state-default, .ui-widget-content .ui-state-default { color: #000; }
 
 /*END DATE PICKER*/
